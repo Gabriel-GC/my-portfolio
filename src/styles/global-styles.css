@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* background: #3D3E40; */
+  background: #080c12;
+  font-family: 'Rubik';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-family: 'Rubik';
+  font-size: 16px;
+  color: #fff;
+}
+
+code {
+  font-family: 'Rubik';
+}
