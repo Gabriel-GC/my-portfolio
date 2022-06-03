@@ -1,7 +1,8 @@
-.container-master{
+.container-presentation{
   display: flex;
   justify-content: space-around;
   gap: 20px;
+  padding: 0px 20px;
 }
 
 .container-right{
@@ -36,7 +37,7 @@
   justify-content: center;
 }
 
-img{
+.perfil-img{
   display: flex;
   max-width: 80%;
   border-radius: 80px;
@@ -63,7 +64,9 @@ img{
 
 .p-title{
   text-transform: uppercase;
-  color: #777;
+  color: #aaaaaa;
+  margin-bottom: 15px;
+
 }
 
 

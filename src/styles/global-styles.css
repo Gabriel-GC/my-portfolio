@@ -6,11 +6,25 @@
 
 body {
   margin: 0;
-  /* background: #3D3E40; */
   background: #080c12;
   font-family: 'Rubik';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: 'Rubik';
+  font-size: 40px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Rubik';
+  font-size: 36px;
+  color: #fff;
+  font-weight: 400;
 }
 
 p {
