@@ -1,0 +1,29 @@
+.container-header{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #09101a;
+}
+
+.content-header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 30px;
+    justify-content: center;
+}
+
+.content-header img{
+    margin-left: 5px;
+    padding: 10px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.content-header img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}

@@ -39,11 +39,19 @@
 
 .perfil-img{
   display: flex;
-  max-width: 80%;
-  border-radius: 80px;
+  border-radius: 100px;
   padding: 10px;
   border: 1px solid rgba(119, 119, 119, 0.3);
   filter: grayscale(100);
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.perfil-img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .container-left{
