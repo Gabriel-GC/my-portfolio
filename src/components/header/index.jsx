@@ -8,7 +8,7 @@ export const Header = () => {
     return (
         <div className="container-header">
             <div className="content-header">
-                <a href="https://api.whatsapp.com/send?phone=5547999963122&text=Ol%C3%A1%2C%20vamos%20marcar%20uma%20call%20%3F" target="_blank" rel="noreferrer" >Contato</a>
+                <a href="https://api.whatsapp.com/send?phone=5547999963122&text=Ol%C3%A1%2C%20vamos%20marcar%20uma%20call%20%3F" target="_blank" rel="noreferrer" >Entrar em contato agora</a>
             </div>
             <div className="content-header">
                 <a href="https://www.instagram.com/gabriel.goncalvesc/?hl=pt-br" target="_blank" rel="noreferrer" >

@@ -8,8 +8,8 @@ export const Presentation = () => {
     <div className="container-presentation">
       <div className="container-right">
         <div className="content-right">
-          <p className='p-title'>Biografia</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sagittis metus.</p>
+          <p className='p-title'>Sobre</p>
+          <p>Desenvolvedor front-end, amante do CSS HTML e estou me aprimorando ao back-end em Javascript React/Node.</p>
         </div>
 
         <div className="content-right">
@@ -23,6 +23,7 @@ export const Presentation = () => {
           <p className='p-title'>Serviços</p>
           <p>Desenvolvedor Front End</p>
           <p>Website Design</p>
+          <p>Freelancer</p>
         </div>
       </div>
 
@@ -35,6 +36,7 @@ export const Presentation = () => {
       <div className="container-left">
         <div className="content-left">
           <p className='p-title'>Experiência</p>
+          <p>1 - 3 anos</p>
           <p>Junior</p>
         </div>
 
@@ -42,7 +44,7 @@ export const Presentation = () => {
           <p className='p-title'>Reside em</p>
           <p>Baneário Camboriú</p>
           <p>Santa Catarina</p>
-          <p>Brazil</p>
+          <p>Brasil</p>
         </div>
 
         <div className="content-left">
