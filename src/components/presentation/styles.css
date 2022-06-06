@@ -37,6 +37,15 @@
   justify-content: center;
 }
 
+.textura{
+  position: relative;
+  left: 22px;
+  top: 7rem;
+  z-index: 10;
+  transform: rotate(90deg);
+  opacity: 60%;
+}
+
 .perfil-img{
   display: flex;
   border-radius: 100px;
@@ -44,14 +53,6 @@
   border: 1px solid rgba(119, 119, 119, 0.3);
   filter: grayscale(100);
   max-width: 100%;
-  -moz-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.perfil-img:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 .container-left{
@@ -74,9 +75,12 @@
   text-transform: uppercase;
   color: #aaaaaa;
   margin-bottom: 15px;
-
 }
 
+hr{
+  margin-top: 4rem;
+  opacity: 10%;
+}
 
 
 
