@@ -18,6 +18,53 @@ export const Skills = () => {
                 <div className="txt">
                     <h2>Focus and skills</h2>
                     <p>I am very interested and easy to learn, I consider myself very applied in problem solving. I think that sharing solutions generates inspiration, I want to have the opportunity to grow and, at the opportunity, teach these steps to beginners, as I was instructed.</p>
+                    <div className="skill-camp">
+                        <div className="skill-box">
+                            <span>HTML 5</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>CSS 3</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>React</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>Node Js</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>Github</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>Git</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>Figma</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>Java Script</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>Photoshop</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>Illustrator</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>Visual Studio Code</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>Wix</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>NuvemShop</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>Loja Integrada</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>SEO</span>
+                        </div>
+                    </div>
                 </div>
                 <div className="asset">
                     <img className='blur' src={Blur} alt="Imagem gradiente branco" />
@@ -51,6 +98,9 @@ export const Skills = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <hr />
             </div>
         </>
     );

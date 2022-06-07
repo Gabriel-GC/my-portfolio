@@ -45,6 +45,14 @@ a:hover{
   color: #f1f1f1;
 }
 
+span{
+  font-family: 'Rubik';
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaaaaa;
+  cursor: default;
+}
+
 code {
   font-family: 'Rubik';
 }

@@ -1,5 +1,4 @@
 import Perfil from "../../assets/photos/profile.jpg";
-import Texture from "../../assets/icons/zigzag-lines-in-side-view-position.png";
 
 
 
@@ -19,7 +18,6 @@ export const Presentation = () => {
           <div className="content-right">
             <p className='p-title'>About</p>
             <p>Front-end developer, lover of CSS HTML and I'm getting better at the back-end in Javascript React/Node.</p>
-            {/* <p>Desenvolvedor front-end, amante do CSS HTML e estou me aprimorando ao back-end em Javascript React/Node.</p> */}
           </div>
           <div className="content-right">
             <p className='p-title'>Contact</p>
@@ -28,7 +26,7 @@ export const Presentation = () => {
             <p>+55 47 9 9996 3122</p>
           </div>
           <div className="content-right">
-            <p className='p-title'>From</p>
+            <p className='p-title'>Resides in</p>
             <p>Balneário Camboriú</p>
             <p>Santa Catarina</p>
             <p>Brazil</p>
@@ -36,7 +34,6 @@ export const Presentation = () => {
         </div>
         <div className="container-center">
           <div className="content-center">
-            <div className="textura"> <img src={Texture} alt="Textura em zig-zag" /></div>
             <img className="perfil-img" src={Perfil} alt="Foto de perfil de Gabriel com filtro preto e branco." />
           </div>
         </div>
