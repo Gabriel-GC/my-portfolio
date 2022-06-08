@@ -8,11 +8,6 @@ import './styles.css';
 export const Presentation = () => {
   return (
     <>
-      <div className="container-name">
-        <p className="p-title">Portfolio</p>
-        <h1>Gabriel Gonçalves Cunha </h1>
-        <p className="p-subtitle">Desenvolvedor front end</p>
-      </div>
       <div className="container-presentation">
         <div className="container-right">
           <div className="content-right">
@@ -26,7 +21,7 @@ export const Presentation = () => {
             <p>+55 47 9 9996 3122</p>
           </div>
           <div className="content-right">
-            <p className='p-title'>Resides in</p>
+            <p className='p-title'>Live in</p>
             <p>Balneário Camboriú</p>
             <p>Santa Catarina</p>
             <p>Brazil</p>
@@ -44,14 +39,19 @@ export const Presentation = () => {
             <p>Junior</p>
           </div>
           <div className="content-left">
-            <p className='p-title'>Serviços</p>
+            <p>Desenvolvedor de front-end</p>
+            <p>2BChosen · Full time</p>
+            <p>ago de 2021 - so far · 11m</p>
+            <br />
+            <p>Auxiliar técnico-administrativo</p>
+            <p>Newell Brands · Full time</p>
+            <p>set de 2015 - dez de 2020 · 5y</p>
+          </div>
+          <div className="content-left">
+            <p className='p-title'>Work as</p>
             <p>Front End Developer</p>
             <p>Website Design</p>
             <p>Freelancer</p>
-          </div>
-          <div className="content-left">
-            <p className='p-title'>teste</p>
-            <p>P</p>
           </div>
         </div>
       </div>

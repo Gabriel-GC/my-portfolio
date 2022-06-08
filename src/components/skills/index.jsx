@@ -16,7 +16,7 @@ export const Skills = () => {
         <>
             <div className="content">
                 <div className="txt">
-                    <h2>Focus and skills</h2>
+                    <h3>Focus and skills</h3>
                     <p>I am very interested and easy to learn, I consider myself very applied in problem solving. I think that sharing solutions generates inspiration, I want to have the opportunity to grow and, at the opportunity, teach these steps to beginners, as I was instructed.</p>
                     <div className="skill-camp">
                         <div className="skill-box">
@@ -53,6 +53,9 @@ export const Skills = () => {
                             <span>Visual Studio Code</span>
                         </div>
                         <div className="skill-box">
+                            <span>Web design</span>
+                        </div>
+                        <div className="skill-box">
                             <span>Wix</span>
                         </div>
                         <div className="skill-box">
@@ -60,6 +63,9 @@ export const Skills = () => {
                         </div>
                         <div className="skill-box">
                             <span>Loja Integrada</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>UI</span>
                         </div>
                         <div className="skill-box">
                             <span>SEO</span>
