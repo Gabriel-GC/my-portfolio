@@ -1,8 +1,6 @@
 import Perfil from "../../assets/photos/profile.jpg";
 import Profile from "../../assets/profile/front-end-gabriel-gc.pdf";
 
-
-
 import './styles.css';
 
 
