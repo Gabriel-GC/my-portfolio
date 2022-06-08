@@ -6,7 +6,8 @@
 
 body {
   margin: 0;
-  background: #080c12;
+  /* background: #080c12; */
+  background-image: linear-gradient(to right, #303133 , #0f0f0f);
   font-family: 'Rubik';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -45,11 +46,12 @@ a{
   text-decoration: none;
   color: #fff;
   cursor: pointer;
-  text-decoration-line: underline;
+  text-decoration-line: none;
   text-decoration-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.4s;
 }
 a:hover{
-  color: #f1f1f1;
+  color: #aaaaaa;
 }
 
 span{

@@ -7,6 +7,7 @@ import './styles.css';
 export const Presentation = () => {
   return (
     <>
+      <span id="about"></span>
       <div className="container-presentation">
         <div className="container-right">
           <div className="content-right">

@@ -1,9 +1,8 @@
 .container-name{
     display: flex;
     max-width: 55%;
-    padding: 20px;
+    padding: 8rem 20px 50px 20px;
     flex-direction: column;
-    margin-bottom: 2rem;
     flex-wrap: wrap;
 }
 
@@ -49,7 +48,7 @@ img.texture{
 .mouse_scroll {
     display: block;
     margin: 0 auto;
-    height: 50px;
+    height: 8rem;
 }
 
 .m_scroll_arrows{

@@ -14,6 +14,7 @@ import Git from "../../assets/icons/skils/git.png";
 export const Skills = () => {
     return (
         <>
+            <span id="skills"></span>
             <div className="content">
                 <div className="txt">
                     <h3>Foco e skills</h3>

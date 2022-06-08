@@ -8,6 +8,7 @@ import './styles.css';
 export const Initial = () => {
     return (
         <>
+            <span id="home"></span>
             <div className="container-name">
                 <p className="p-title">Olá bem-vindo, sou</p>
                 <h1>Gabriel Gonçalves Cunha</h1>
