@@ -2,6 +2,7 @@ import Profile from "../../assets/profile/front-end-gabriel-gc.pdf";
 
 
 
+
 import './styles.css';
 
 export const Initial = () => {
@@ -15,6 +16,16 @@ export const Initial = () => {
                 <a className='btn-down' href={Profile} download="Front-end Gabriel" target='_blank' rel='noreferrer'>
                     Baixar resumo
                 </a>
+            </div>
+            <div className="mouse_scroll">
+                <div className="mouse">
+                    <div className="wheel"></div>
+                </div>
+                <div>
+                    <span className="m_scroll_arrows one"></span>
+                    <span className="m_scroll_arrows two"></span>
+                    <span className="m_scroll_arrows tre"></span>
+                </div>
             </div>
             <div>
                 <hr />
