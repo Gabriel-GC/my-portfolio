@@ -16,8 +16,9 @@ export const Skills = () => {
         <>
             <div className="content">
                 <div className="txt">
-                    <h3>Focus and skills</h3>
-                    <p>I am very interested and easy to learn, I consider myself very applied in problem solving. I think that sharing solutions generates inspiration, I want to have the opportunity to grow and, at the opportunity, teach these steps to beginners, as I was instructed.</p>
+                    <h3>Foco e skills</h3>
+                    <p>Sou muito interessado e fácil de aprender, considero-me muito aplicado na resolução de problemas. Acho que compartilhar soluções gera inspiração, quero ter a oportunidade de crescer e, na oportunidade, ensinar esses passos para iniciantes, conforme fui orientado.</p>
+                    {/* <p>I am very interested and easy to learn, I consider myself very applied in problem solving. I think that sharing solutions generates inspiration, I want to have the opportunity to grow and, at the opportunity, teach these steps to beginners, as I was instructed.</p> */}
                     <div className="skill-camp">
                         <div className="skill-box">
                             <span>HTML 5</span>

@@ -1,4 +1,5 @@
 import Perfil from "../../assets/photos/profile.jpg";
+import Profile from "../../assets/profile/front-end-gabriel-gc.pdf";
 
 
 
@@ -11,20 +12,20 @@ export const Presentation = () => {
       <div className="container-presentation">
         <div className="container-right">
           <div className="content-right">
-            <p className='p-title'>About</p>
-            <p>Front-end developer, lover of CSS HTML and I'm getting better at the back-end in Javascript React/Node.</p>
+            <p className='p-title'>Sobre</p>
+            <p>Desenvolvedor front-end, amante de CSS HTML e estou melhorando no back-end em Javascript React/Node.</p>
           </div>
           <div className="content-right">
-            <p className='p-title'>Contact</p>
+            <p className='p-title'>Contato</p>
             <p>Gabriel Gonçalves Cunha</p>
             <p>goncalves.cunhaa@gmail.com</p>
             <p>+55 47 9 9996 3122</p>
           </div>
           <div className="content-right">
-            <p className='p-title'>Live in</p>
+            <p className='p-title'>Mora em</p>
             <p>Balneário Camboriú</p>
             <p>Santa Catarina</p>
-            <p>Brazil</p>
+            <p>Brasil</p>
           </div>
         </div>
         <div className="container-center">
@@ -34,24 +35,21 @@ export const Presentation = () => {
         </div>
         <div className="container-left">
           <div className="content-left">
-            <p className='p-title'>Experience</p>
-            <p>1 - 3 years</p>
+            <p className='p-title'>Experiência</p>
+            <p>1 - 3 anos</p>
             <p>Junior</p>
           </div>
           <div className="content-left">
-            <p>Desenvolvedor de front-end</p>
-            <p>2BChosen · Full time</p>
-            <p>ago de 2021 - so far · 11m</p>
-            <br />
-            <p>Auxiliar técnico-administrativo</p>
-            <p>Newell Brands · Full time</p>
-            <p>set de 2015 - dez de 2020 · 5y</p>
-          </div>
-          <div className="content-left">
-            <p className='p-title'>Work as</p>
+            <p className='p-title'>Trabalho</p>
             <p>Front End Developer</p>
             <p>Website Design</p>
             <p>Freelancer</p>
+          </div>
+          <div className="content-left">
+            <p className='p-title'>Download</p>
+            <a className='btn-down' href={Profile} download="Front-end Gabriel" target='_blank' rel='noreferrer'>
+              Perfil.pdf
+            </a>
           </div>
         </div>
       </div>

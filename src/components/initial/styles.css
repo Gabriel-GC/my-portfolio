@@ -13,13 +13,14 @@
     font-size: 18px;
     color: #aaaaaa;
     font-weight: 200;
+    margin-bottom: 2rem;
+
   }
 
   .btn-down{
     display: flex;
     max-width: 40%;
     height: 52px;
-    margin-top: 2rem;
     padding: 10px;
     align-items: center;
     justify-content: center;
