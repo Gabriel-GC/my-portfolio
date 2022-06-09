@@ -17,12 +17,6 @@ export const Header = () => {
                     <li>
                         <a href="/#skills">Skills</a>
                     </li>
-                    {/* <li>
-                        <a href="/#">Projetos</a>
-                    </li>
-                    <li>
-                        <a href="/#">Contato</a>
-                    </li> */}
                 </ul>
             </div>
         </div>

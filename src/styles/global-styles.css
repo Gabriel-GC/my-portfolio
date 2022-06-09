@@ -7,7 +7,7 @@
 body {
   margin: 0;
   /* background: #080c12; */
-  background-image: linear-gradient(to right, #303133 , #0f0f0f);
+  background-image: linear-gradient(to right, #262626 , #0D0D0D);
   font-family: 'Rubik';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -28,7 +28,7 @@ h2 {
   line-height: 1.4;
 }
 
-h3 {
+h3 , h4 {
   font-family: 'Rubik';
   font-size: 36px;
   color: #fff;
@@ -51,7 +51,7 @@ a{
   transition: all 0.4s;
 }
 a:hover{
-  color: #aaaaaa;
+  color: rgba(255, 255, 255,0.8);
 }
 
 span{
