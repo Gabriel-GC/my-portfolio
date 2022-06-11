@@ -40,6 +40,7 @@ img.texture{
     border-radius: 10px;
     transition: all 0.5s;
     text-decoration: none;
+    cursor: pointer;
   }
 
 .btn-down:hover{

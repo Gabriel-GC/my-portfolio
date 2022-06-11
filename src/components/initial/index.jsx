@@ -1,8 +1,5 @@
 import Profile from "../../assets/profile/front-end-gabriel-gc.pdf";
 
-
-
-
 import './styles.css';
 
 export const Initial = () => {
