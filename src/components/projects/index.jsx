@@ -13,6 +13,12 @@ import Verbena1 from "../../assets/photos/projects/verbena/verbenaclub-modal-1.p
 import Verbena2 from "../../assets/photos/projects/verbena/verbenaclub-modal-2.png";
 import Verbena3 from "../../assets/photos/projects/verbena/verbenaclub-modal-3.png";
 
+import Portfolio from "../../assets/photos/projects/portfolio/portfolio.png";
+import Portfolio1 from "../../assets/photos/projects/portfolio/portfolio-modal-1.png";
+import Portfolio2 from "../../assets/photos/projects/portfolio/portfolio-modal-2.png";
+
+
+
 
 import './styles.css';
 
@@ -20,14 +26,24 @@ Modal.setAppElement("#root");
 
 export const Projects = () => {
 
-    const [modalIsOpen, setIsOpen] = useState(false);
+    const [modalOneIsOpen, setOneIsOpen] = useState(false);
+    const [modalTwoIsOpen, setTwoIsOpen] = useState(false);
 
-    function openModal() {
-        setIsOpen(true);
+
+    function openModalOne() {
+        setOneIsOpen(true);
     }
 
-    function closeModal() {
-        setIsOpen(false);
+    function closeModalOne() {
+        setOneIsOpen(false);
+    }
+
+    function openModalTwo() {
+        setTwoIsOpen(true);
+    }
+
+    function closeModalTwo() {
+        setTwoIsOpen(false);
     }
 
     return (
@@ -43,10 +59,10 @@ export const Projects = () => {
                         <img src={Verbenaclub} alt="" />
                         <div className="drop">
                             <div className="text">
-                                <button onClick={openModal} className="btn-down"><p>Ver mais</p></button>
+                                <button onClick={openModalOne} className="btn-down"><p>Ver mais</p></button>
                                 <Modal
-                                    isOpen={modalIsOpen}
-                                    onRequestClose={closeModal}
+                                    isOpen={modalOneIsOpen}
+                                    onRequestClose={closeModalOne}
                                     contentLabel="Modal Example"
                                     overLayClassName="modal-overlay"
                                     className="modal-content"
@@ -54,7 +70,7 @@ export const Projects = () => {
                                     <Swiper
                                         pagination={{
                                             clickable: true,
-                                          }}
+                                        }}
                                         navigation={true}
                                         loop={true}
                                         slidesPerView={1}
@@ -73,6 +89,41 @@ export const Projects = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="project">
+                        <img src={Portfolio} alt="" />
+                        <div className="drop">
+                            <div className="text">
+                                <button onClick={openModalTwo} className="btn-down"><p>Ver mais</p></button>
+                                <Modal
+                                    isOpen={modalTwoIsOpen}
+                                    onRequestClose={closeModalTwo}
+                                    contentLabel="Modal Example"
+                                    overLayClassName="modal-overlay"
+                                    className="modal-content"
+                                >
+                                    <Swiper
+                                        pagination={{
+                                            clickable: true,
+                                        }}
+                                        navigation={true}
+                                        loop={true}
+                                        slidesPerView={1}
+                                        autoplay={{ delay: 5000 }}
+                                        modules={[Pagination, Navigation]}
+                                    >
+                                        <SwiperSlide><img src={Portfolio1} alt="" /></SwiperSlide>
+                                        <SwiperSlide><img src={Portfolio2} alt="" /></SwiperSlide>
+                                        <SwiperSlide><img src={Portfolio2} alt="" /></SwiperSlide>
+                                    </Swiper>
+                                    <h4>Meu portfolio - Gabriel</h4>
+                                    <a href="https://portfoliogabrielgc.netlify.app/" target='_blank' rel='noreferrer' >https://portfoliogabrielgc.netlify.app/</a>
+                                    <hr />
+                                    <p>Minha primeira lading page dentro de uma organização que executei solo do header até o footer, claro que com muitas referências ter essa projeto em minhas mãos foi ótimo para por meus conhecimentos até então mais teóricos em prática, terminei com exito, apresentado e aprovado com elogios pelo então cliente.</p>
+                                </Modal>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <hr />
             </div >
