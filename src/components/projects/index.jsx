@@ -125,8 +125,8 @@ export const Projects = () => {
                     </div>
 
                 </div>
-                <hr />
             </div >
+            <hr />
         </>
     );
 }
