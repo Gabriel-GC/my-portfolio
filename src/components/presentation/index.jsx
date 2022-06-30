@@ -52,9 +52,7 @@ export const Presentation = () => {
           </div>
         </div>
       </div>
-      <div>
-        <hr />
-      </div>
+      <hr />
     </>
   );
 }

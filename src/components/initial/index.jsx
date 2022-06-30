@@ -27,9 +27,7 @@ export const Initial = () => {
                     <span className="m_scroll_arrows tre"></span>
                 </div>
             </div>
-            <div>
                 <hr />
-            </div>
         </>
     )
 }
