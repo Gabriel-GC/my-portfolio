@@ -1,21 +1,21 @@
 import './styles.css';
 
 
-import { Header } from '../../components/header';
 import { Presentation } from '../../components/presentation';
 import { Skills } from '../../components/skills';
 import { Initial } from '../../components/initial';
 import { Projects } from '../../components/projects';
 import { Footer } from '../../components/footer';
 import { Contact } from '../../components/contact';
+import { Navbar } from '../../components/navbar';
 
 
 export const Home = () => {
   return (
     <>
-      <Header />
+      <Navbar />
       <section className="container">
-        <Initial/>
+        <Initial />
         <Presentation />
         <Skills />
         <Projects />
