@@ -101,5 +101,25 @@ code {
   a.btn-down{
     font-size: 16px;
   }
+}
+
+  @media only screen and (max-width: 400px){
+
+    h1 { 
+      font-size: 24px;
+    }
+  
+    h2, h3 , h4 {
+      font-size: 22px;
+    }
+  
+    h5 {
+      font-size: 22px;
+    }
+  
+    a.btn-down{
+      font-size: 16px;
+    }
+  
 
 }

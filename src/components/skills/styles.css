@@ -101,7 +101,7 @@ img.blur{
     transform: translate(-15%, 35%) scale(1.1);
 }
 
-@media only screen and (max-width: 789px){
+@media only screen and (max-width: 1180px){
 
     .container-skills {
         flex-direction: column;

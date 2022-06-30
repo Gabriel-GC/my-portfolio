@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 
-
 import "./styles.css";
 
 export const Navbar = () => {

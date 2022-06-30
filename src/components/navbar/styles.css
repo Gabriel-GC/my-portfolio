@@ -37,7 +37,7 @@
   }
 
   
-  @media (max-width: 789px) {
+  @media (max-width: 1080px) {
     .navbar > .nav-items {
       position: absolute;
       top: 60px;

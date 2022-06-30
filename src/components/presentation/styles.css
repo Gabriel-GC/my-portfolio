@@ -92,7 +92,6 @@ hr{
     text-align: center;
     align-items: center;
     height: 120px;
-    width: 100%;
   }
 
   .btn-down{
@@ -100,7 +99,7 @@ hr{
   }
 
   .perfil-img{
-    max-width: 60%;
+    max-width: 55%;
   }
 
 
