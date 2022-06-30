@@ -21,8 +21,16 @@
     justify-content: center;
 }
 
-.content-contact-image img{
-    padding: 0 2rem;
+.content-contact-image{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+}
+.content-contact-image img {
     cursor: pointer;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -36,4 +44,20 @@
 
 .p-contact{
     color: #aaaaaa;
+}
+
+@media only screen and (max-width: 789px){
+
+.container-contact{
+    margin: 6rem 0;
+    padding: 0 20px;
+}
+
+.content-contact-image{
+    gap: 2rem;
+}
+.content-contact-image img{
+    width: 46px;
+}
+    
 }

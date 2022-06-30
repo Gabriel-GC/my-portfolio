@@ -74,6 +74,37 @@ hr{
   opacity: 3%;
 }
 
+@media only screen and (max-width: 789px){
+
+  .container-presentation{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-right, .container-left, .container-center{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-right, .content-left{
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+  }
+
+  .btn-down{
+    width: 100%;
+  }
+
+  .perfil-img{
+    max-width: 60%;
+  }
+
+
+}
 
 
 

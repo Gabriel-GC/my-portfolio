@@ -194,3 +194,34 @@ img.texture{
   50%  { opacity: .5; }
   100% { opacity: 1; }
 }
+
+
+@media only screen and (max-width: 789px){
+  
+  .container-name{
+    align-items: center;
+    max-width: 100%;
+    padding: 10rem 20px 50px 20px;
+    text-align: center;
+  }
+
+  .p-subtitle{
+    margin-top: 2rem;
+    font-size: 16px;
+    margin-bottom: 3rem;
+  }
+
+  .btn-content{
+    width: 100%;
+  }
+
+  .btn-down {
+    height: 58px;
+  }
+
+  .mouse {
+    display: none;
+  }
+
+
+}

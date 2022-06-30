@@ -83,3 +83,23 @@ button:hover{
 code {
   font-family: 'Rubik';
 }
+
+@media only screen and (max-width: 789px){
+
+  h1 { 
+    font-size: 30px;
+  }
+
+  h2, h3 , h4 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 24px;
+  }
+
+  a.btn-down{
+    font-size: 16px;
+  }
+
+}
