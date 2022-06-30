@@ -94,7 +94,7 @@
     gap: 15px;
     max-width: 600px;
     max-height: 97%;
-    background-color: rgba(70, 70, 70, 0.8);
+    background-color: rgb(70, 70, 70);
     padding: 30px;
     border-radius: 2rem;
 }

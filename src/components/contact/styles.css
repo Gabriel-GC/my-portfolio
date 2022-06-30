@@ -61,3 +61,9 @@
 }
     
 }
+
+@media only screen and (max-width: 400px){
+    .content-contact-image{
+        gap: 1rem;
+    }
+}
