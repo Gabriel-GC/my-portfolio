@@ -47,7 +47,7 @@ export const Presentation = () => {
           <div className="content-left">
             <p className='p-title'>Download</p>
             <a className='btn-down' href={Profile} download="Front-end Gabriel" target='_blank' rel='noreferrer'>
-              Perfil.pdf
+              Curriculum.pdf
             </a>
           </div>
         </div>

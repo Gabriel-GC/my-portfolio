@@ -76,6 +76,7 @@ img.blur{
 .tech:nth-child(1){
     transform: translate(30%, -20%) scale(0.9) translateY(2rem);
 }
+
 .tech:nth-child(2){
     transform: translate(0px, -2rem) scale(1.2);
 }
@@ -99,6 +100,16 @@ img.blur{
 }
 .tech:nth-child(9){
     transform: translate(-15%, 35%) scale(1.1);
+}
+
+@keyframes flutuacao {
+    0%, 100%{
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translatex(-20px);
+    }
+    
 }
 
 @media only screen and (max-width: 1180px){

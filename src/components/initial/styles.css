@@ -25,30 +25,6 @@ img.texture{
     margin-bottom: 2rem;
 }
 
-.btn-content{
-  width: 50%;
-}
-.btn-down{
-    display: flex;
-    max-width: 100%;
-    height: 52px;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    background: rgba(170, 170, 170,0.1);
-    border: 1px solid rgba(170, 170, 170,0.3);
-    border-radius: 10px;
-    transition: all 0.5s;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-.btn-down:hover{
-    background: rgba(170, 170, 170,0.3);
-    border: 1px solid rgba(170, 170, 170,0.1);
-}
-
-
 .mouse_scroll {
     display: block;
     margin: 0 auto;
@@ -209,14 +185,6 @@ img.texture{
     margin-top: 2rem;
     font-size: 16px;
     margin-bottom: 3rem;
-  }
-
-  .btn-content{
-    width: 100%;
-  }
-
-  .btn-down {
-    height: 58px;
   }
 
   .mouse {
