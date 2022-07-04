@@ -174,7 +174,7 @@ export const Projects = () => {
                                         <SwiperSlide><img src={Postevent2} alt="mockup site desktop" /></SwiperSlide>
                                         <SwiperSlide><img src={Postevent3} alt="mockup site mobile" /></SwiperSlide>
                                     </Swiper>
-                                    <h4>Postevent</h4>
+                                    <h4>Post Event</h4>
                                     <hr />
                                     <div className="content-link">
                                         <img className="share" src={Share} alt="" />
