@@ -99,6 +99,12 @@
     border-radius: 2rem;
 }
 
+.modal-content a {
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+
 .ReactModal__Overlay {
     display: flex;
     align-items: center;

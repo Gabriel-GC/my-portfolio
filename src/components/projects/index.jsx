@@ -82,9 +82,9 @@ export const Projects = () => {
                                         <SwiperSlide><img src={Verbena3} alt="" /></SwiperSlide>
                                     </Swiper>
                                     <h4>Lading Page - Verbena Club</h4>
-                                    <a href="https://verbenaclub.com/" target='_blank' rel='noreferrer' >https://verbenaclub.com/</a>
                                     <hr />
-                                    <p>Minha primeira lading page dentro de uma organização que executei solo do header até o footer, claro que com muitas referências ter essa projeto em minhas mãos foi ótimo para por meus conhecimentos até então mais teóricos em prática, terminei com exito, apresentado e aprovado com elogios pelo então cliente.</p>
+                                    <a href="https://verbenaclub.com/" target='_blank' rel='noreferrer' >https://verbenaclub.com/</a>
+                                    <button onClick={closeModalOne}><p>Fechar</p></button>
                                 </Modal>
                             </div>
                         </div>
@@ -116,9 +116,9 @@ export const Projects = () => {
                                         <SwiperSlide><img src={Portfolio2} alt="" /></SwiperSlide>
                                     </Swiper>
                                     <h4>Meu portfolio - Gabriel</h4>
-                                    <a href="https://portfoliogabrielgc.netlify.app/" target='_blank' rel='noreferrer' >https://portfoliogabrielgc.netlify.app/</a>
                                     <hr />
-                                    <p>Minha primeira lading page dentro de uma organização que executei solo do header até o footer, claro que com muitas referências ter essa projeto em minhas mãos foi ótimo para por meus conhecimentos até então mais teóricos em prática, terminei com exito, apresentado e aprovado com elogios pelo então cliente.</p>
+                                    <a href="https://portfoliogabrielgc.netlify.app/" target='_blank' rel='noreferrer' >https://portfoliogabrielgc.netlify.app/</a>
+                                    <button onClick={closeModalTwo}><p>Fechar</p></button>
                                 </Modal>
                             </div>
                         </div>

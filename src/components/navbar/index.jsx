@@ -7,7 +7,8 @@ export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="navbar">
-            <span className="nav-logo"></span>
+            <span className="nav-logo">
+            </span>
             <div className={`nav-items ${isOpen && "open"}`}>
                 <a href="/#home">Home</a>
                 <a href="/#about">Sobre</a>

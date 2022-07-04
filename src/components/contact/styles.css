@@ -11,13 +11,18 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .content-contact-text{
     width: 100%;
     display: flex;
     margin-bottom: 5rem;
+    justify-content: center;
+}
+
+.content-contact-image a{
+    display: flex;
     justify-content: center;
 }
 
@@ -35,6 +40,7 @@
     transition: all 0.5s;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
+    width: 40%;
 }
 .content-contact-image img:hover {
     transform: scale(1.2);

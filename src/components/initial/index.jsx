@@ -1,5 +1,7 @@
 import './styles.css';
 
+
+
 export const Initial = () => {
     return (
         <>
@@ -20,7 +22,7 @@ export const Initial = () => {
                     <span className="m_scroll_arrows tre"></span>
                 </div>
             </div>
-                <hr />
+            <hr />
         </>
     )
 }

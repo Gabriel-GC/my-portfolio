@@ -36,8 +36,8 @@ img.texture{
     width: 5px;
     height: 5px;
     transform: rotate(45deg);
-    border-right: 1px solid rgba(170, 170, 170,0.2);
-    border-bottom: 1px solid rgba(170, 170, 170,0.4);
+    border-right: 1px solid rgba(170, 170, 170,0.6);
+    border-bottom: 1px solid rgba(170, 170, 170,0.8);
     margin: 0 0 3px 4px;
     width: 16px;
     height: 16px;
@@ -84,7 +84,7 @@ img.texture{
   width: 24px;
   border-radius: 14px;
   transform: none;
-  border: 1px solid rgba(170, 170, 170,0.3);
+  border: 1px solid rgba(170, 170, 170,0.4);
   top: 170px;
 }
 
@@ -93,7 +93,7 @@ img.texture{
   width: 2px;
   display: block;
   margin: 5px auto;
-  border: 2px solid rgba(170, 170, 170,0.3);
+  border: 2px solid rgba(170, 170, 170,0.4);
   position: relative;
   height: 4px;
   width: 4px;

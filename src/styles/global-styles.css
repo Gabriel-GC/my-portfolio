@@ -7,8 +7,10 @@
 body {
   margin: 0;
   /* background: #080c12; */
-  /* background-image: url('https://i.imgur.com/Ek3tc2V.jpg'); */
   background-image: linear-gradient(to right, #262626 , #0D0D0D);
+  /* background-color: #101010; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/maze-black.png"); */
+
   font-family: 'Rubik';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -74,6 +76,7 @@ button{
   border-radius: 10px;
   transition: all 0.5s;
   text-decoration: none;
+  cursor: pointer;
 }
 
 button:hover{

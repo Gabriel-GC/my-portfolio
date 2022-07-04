@@ -11,12 +11,6 @@
     border-bottom: 1px solid rgba(170, 170, 170, 0.1);
 }
 
-.navbar > .nav-logo {
-    font-weight: 700;
-    font-size: 21px;
-    margin: 15px;
-    color: #ffffff;
-  }
   
   .navbar > .nav-items > a {
     color: #ffffff;
