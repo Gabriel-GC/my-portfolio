@@ -105,6 +105,7 @@ export const Projects = () => {
                                         <a href="https://verbenaclub.com/" target='_blank' rel='noreferrer' >https://verbenaclub.com/</a>
                                     </div>
                                     <button onClick={closeModalOne}><p>Fechar</p></button>
+                                    <span className="version">Update on 07/2022</span>
                                 </Modal>
                             </div>
                         </div>
@@ -143,6 +144,7 @@ export const Projects = () => {
                                         <a href="https://portfoliogabrielgc.netlify.app/" target='_blank' rel='noreferrer' >https://portfoliogabrielgc.netlify.app/</a>
                                     </div>
                                     <button onClick={closeModalTwo}><p>Fechar</p></button>
+                                    <span className="version">Update on 07/2022</span>
                                 </Modal>
                             </div>
                         </div>
@@ -181,6 +183,7 @@ export const Projects = () => {
                                         <a href="https://postevent.netlify.app/" target='_blank' rel='noreferrer' >https://postevent.netlify.app/</a>
                                     </div>
                                     <button onClick={closeModalTre}><p>Fechar</p></button>
+                                    <span className="version">Update on 07/2022</span>
                                 </Modal>
                             </div>
                         </div>
