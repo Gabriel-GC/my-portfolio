@@ -100,10 +100,22 @@
 }
 
 .modal-content a {
-    margin-bottom: 15px;
     text-decoration: underline;
 }
 
+.content-link{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.share{
+    width: 24px;
+}
 
 .ReactModal__Overlay {
     display: flex;
