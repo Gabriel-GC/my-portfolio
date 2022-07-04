@@ -40,7 +40,16 @@ export const Skills = () => {
                             <span>Git</span>
                         </div>
                         <div className="skill-box">
+                            <span>Netlifly</span>
+                        </div>
+                        <div className="skill-box">
                             <span>Figma</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>Slack</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>Digital Ocean</span>
                         </div>
                         <div className="skill-box">
                             <span>Java Script</span>
@@ -65,6 +74,9 @@ export const Skills = () => {
                         </div>
                         <div className="skill-box">
                             <span>Loja Integrada</span>
+                        </div>
+                        <div className="skill-box">
+                            <span>Magazord</span>
                         </div>
                         <div className="skill-box">
                             <span>UI</span>

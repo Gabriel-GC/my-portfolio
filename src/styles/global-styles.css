@@ -7,9 +7,8 @@
 body {
   margin: 0;
   /* background: #080c12; */
-  background-image: linear-gradient(to right, #262626 , #0D0D0D);
+  background-image: linear-gradient(to right, #151515 , #000);
   /* background-color: #101010; */
-  /* background-image: url("https://www.transparenttextures.com/patterns/maze-black.png"); */
 
   font-family: 'Rubik';
   -webkit-font-smoothing: antialiased;
@@ -72,7 +71,7 @@ button{
   align-items: center;
   justify-content: center;
   background: rgba(170, 170, 170,0.1);
-  border: 1px solid rgba(170, 170, 170,0.3);
+  border: 1px solid rgba(170, 170, 170,0.1);
   border-radius: 10px;
   transition: all 0.5s;
   text-decoration: none;

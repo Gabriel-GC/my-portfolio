@@ -14,15 +14,15 @@ import { Navbar } from '../../components/navbar';
 export const Home = () => {
   return (
     <>
-        <Navbar />
-        <section className="container">
-          <Initial />
-          <Presentation />
-          <Skills />
-          <Projects />
-          <Contact />
-          <Footer />
-        </section>
+      <Navbar />
+      <section className="container">
+        <Initial />
+        <Presentation />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </section>
     </>
   );
 }

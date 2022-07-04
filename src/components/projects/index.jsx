@@ -100,12 +100,44 @@ export const Projects = () => {
                                     </Swiper>
                                     <h4>Lading Page - Verbena Club</h4>
                                     <hr />
+                                    <div className="skill-camp">
+                                        <div className="skill-box">
+                                            <span>Java Script</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>HTML 5</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>CSS 3</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>React</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Visual Studio Code</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>SEO</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Figma</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Git</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Github</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Digital Ocean</span>
+                                        </div>
+                                    </div>
                                     <div className="content-link">
-                                        <img className="share" src={Share} alt="" />
-                                        <a href="https://verbenaclub.com/" target='_blank' rel='noreferrer' >https://verbenaclub.com/</a>
+                                        <a href="https://verbenaclub.com/" target='_blank' rel='noreferrer' >verbenaclub.com</a>
+                                        <img className="share" src={Share} alt="Share" />
                                     </div>
                                     <button onClick={closeModalOne}><p>Fechar</p></button>
-                                    <span className="version">Update on 07/2022</span>
+                                    <span className="version">Atualizado em 04-07-2022</span>
                                 </Modal>
                             </div>
                         </div>
@@ -139,12 +171,47 @@ export const Projects = () => {
                                     </Swiper>
                                     <h4>Meu portfolio - Gabriel</h4>
                                     <hr />
+                                    <div className="skill-camp">
+                                        <div className="skill-box">
+                                            <span>Java Script</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>HTML 5</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>CSS 3</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>React</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Visual Studio Code</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>SEO</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>UI</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Photoshop</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Git</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Github</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Netlifly</span>
+                                        </div>
+                                    </div>
                                     <div className="content-link">
+                                        <a href="https://portfoliogabrielgc.netlify.app/" target='_blank' rel='noreferrer' >portfoliogabrielgc.netlify.app</a>
                                         <img className="share" src={Share} alt="" />
-                                        <a href="https://portfoliogabrielgc.netlify.app/" target='_blank' rel='noreferrer' >https://portfoliogabrielgc.netlify.app/</a>
                                     </div>
                                     <button onClick={closeModalTwo}><p>Fechar</p></button>
-                                    <span className="version">Update on 07/2022</span>
+                                    <span className="version">Atualizado em 04-07-2022</span>
                                 </Modal>
                             </div>
                         </div>
@@ -178,12 +245,44 @@ export const Projects = () => {
                                     </Swiper>
                                     <h4>Post Event</h4>
                                     <hr />
+                                    <div className="skill-camp">
+                                        <div className="skill-box">
+                                            <span>Java Script</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>HTML 5</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>CSS 3</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>React</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Visual Studio Code</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>SEO</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Fake API for testing</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Netlifly</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Git</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Github</span>
+                                        </div>
+                                    </div>
                                     <div className="content-link">
+                                        <a href="https://postevent.netlify.app/" target='_blank' rel='noreferrer' >postevent.netlify.app</a>
                                         <img className="share" src={Share} alt="" />
-                                        <a href="https://postevent.netlify.app/" target='_blank' rel='noreferrer' >https://postevent.netlify.app/</a>
                                     </div>
                                     <button onClick={closeModalTre}><p>Fechar</p></button>
-                                    <span className="version">Update on 07/2022</span>
+                                    <span className="version">Atualizado em 04-07-2022</span>
                                 </Modal>
                             </div>
                         </div>

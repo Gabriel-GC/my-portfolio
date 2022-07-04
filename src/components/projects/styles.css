@@ -93,9 +93,10 @@
     width: 90%;
     gap: 15px;
     max-width: 600px;
-    max-height: 97%;
-    background-color: rgb(70, 70, 70);
-    padding: 30px;
+    max-height: 98%;
+    background-color: rgba(15, 15, 15,0.95);
+    border: 1px solid rgba(70, 70, 70, 0.2);
+    padding: 10px;
     border-radius: 2rem;
 }
 
@@ -103,11 +104,18 @@
     text-decoration: underline;
 }
 
+.modal-content h4 {
+    font-size: 24px;
+}
+
+.modal-content > .skill-camp {
+    gap: 4px;
+}
+
 .version {
     opacity: 20%;
-    margin-top: 1rem;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .content-link{
@@ -116,12 +124,12 @@
     gap: 10px;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .share{
-    width: 24px;
+    width: 20px;
 }
 
 .ReactModal__Overlay {
@@ -179,10 +187,12 @@
 }
 
 @media only screen and (max-width: 789px){
+    .modal-content > .skill-camp {
+        justify-content: initial;
+    }
     .container-projects{
         text-align: center;
     }
-
     .txt-projects{
         width: 100%;
     }
