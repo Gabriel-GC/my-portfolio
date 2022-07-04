@@ -3,10 +3,10 @@
     width: 100%;
     height: 5rem;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     padding: 20px;
-    margin: 1rem 0;
+    margin: 0.1rem 0;
 }
 
 .content-footer{
@@ -24,5 +24,9 @@
 
 .copy:hover{
     color: #fff;
+}
 
+.v{
+    font-size: 10px;
+    color: rgba(107, 107, 107, 0.3);
 }
