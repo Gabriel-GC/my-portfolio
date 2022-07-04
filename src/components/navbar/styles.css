@@ -7,8 +7,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(15, 15, 15, 0.9);
+    background: rgba(15, 15, 15, 0.5);
     border-bottom: 1px solid rgba(170, 170, 170, 0.1);
+    backdrop-filter: blur(5px);
 }
 
   
@@ -40,11 +41,12 @@
       gap: 20px;
       align-items: center;
       right: 0;
-      width: 40%;
+      width: 30%;
       transform: translateX(150%);
       transition: all .45s;
-      background: rgba(15, 15, 15, 0.9);
+      background: rgba(15, 15, 15, 0.5);
       border-radius: 0 0 0 20px;
+      backdrop-filter: blur(5px);
 
     }
   
