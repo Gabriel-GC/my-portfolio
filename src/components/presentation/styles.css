@@ -3,6 +3,8 @@
   justify-content: space-around;
   gap: 20px;
   padding: 5rem 20px;
+  align-items: center;
+
 }
 
 .container-right{

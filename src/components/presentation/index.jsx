@@ -12,13 +12,7 @@ export const Presentation = () => {
         <div className="container-right">
           <div className="content-right">
             <p className='p-title'>Sobre</p>
-            <p>Desenvolvedor front-end, amante e de CSS, se aprimorando no back-end em Javascript React/Node.</p>
-          </div>
-          <div className="content-right">
-            <p className='p-title'>Contato</p>
-            <p>Gabriel Gonçalves Cunha</p>
-            <p>goncalves.cunhaa@gmail.com</p>
-            <p>+55 47 9 9996 3122</p>
+            <p>Desenvolvedor front-end, amante e <em>hater</em> de CSS HTML, em constante evolução e aprendizado ao Fullstack.</p>
           </div>
           <div className="content-right">
             <p className='p-title'>Mora em</p>
@@ -37,12 +31,6 @@ export const Presentation = () => {
             <p className='p-title'>Experiência</p>
             <p>1 - 3 anos</p>
             <p>Junior</p>
-          </div>
-          <div className="content-left">
-            <p className='p-title'>Trabalho</p>
-            <p>Front End Developer</p>
-            <p>Website Design</p>
-            <p>Freelancer</p>
           </div>
           <div className="content-left">
             <p className='p-title'>Download</p>
