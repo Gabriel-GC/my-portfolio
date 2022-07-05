@@ -8,13 +8,18 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 
 import Share from "../../assets/icons/share.png";
+import More from "../../assets/photos/foto-capa-modal-morepost.png";
+
+
+import Turnflix from "../../assets/photos/projects/turnflix/turnflix-capa.png";
+import Turnflix1 from "../../assets/photos/projects/turnflix/turnflix-project-one.png";
+import Turnflix2 from "../../assets/photos/projects/turnflix/turnflix-project-desktop.png";
+import Turnflix3 from "../../assets/photos/projects/turnflix/turnflix-project-mobile.png";
 
 import Postevent from "../../assets/photos/projects/postevent/postevent-capa.png";
 import Postevent1 from "../../assets/photos/projects/postevent/postevent-project-one.png";
 import Postevent2 from "../../assets/photos/projects/postevent/postevent-project-desktop.png";
 import Postevent3 from "../../assets/photos/projects/postevent/postevent-project-mobile.png";
-
-
 
 import Verbena from "../../assets/photos/projects/verbena/verbena-capa.png";
 import Verbena1 from "../../assets/photos/projects/verbena/verbena-project-one.png";
@@ -38,6 +43,7 @@ export const Projects = () => {
     const [modalOneIsOpen, setOneIsOpen] = useState(false);
     const [modalTwoIsOpen, setTwoIsOpen] = useState(false);
     const [modalTreIsOpen, setTreIsOpen] = useState(false);
+    const [modalForIsOpen, setForIsOpen] = useState(false);
 
 
     function openModalOne() {
@@ -61,6 +67,14 @@ export const Projects = () => {
 
     function closeModalTre() {
         setTreIsOpen(false);
+    }
+
+    function openModalFor() {
+        setForIsOpen(true);
+    }
+
+    function closeModalFor() {
+        setForIsOpen(false);
     }
 
     return (
@@ -137,7 +151,7 @@ export const Projects = () => {
                                         <img className="share" src={Share} alt="Share" />
                                     </div>
                                     <button onClick={closeModalOne}><p>Fechar</p></button>
-                                    <span className="version">Atualizado em 04-07-2022</span>
+                                    <span className="version">O site pode não estar disponível devido a administração do cliente. Atualizado em 04-07-2022*</span>
                                 </Modal>
                             </div>
                         </div>
@@ -211,7 +225,7 @@ export const Projects = () => {
                                         <img className="share" src={Share} alt="" />
                                     </div>
                                     <button onClick={closeModalTwo}><p>Fechar</p></button>
-                                    <span className="version">Atualizado em 04-07-2022</span>
+                                    <span className="version">O site pode não estar disponível devido a administração do cliente. Atualizado em 04-07-2022*</span>
                                 </Modal>
                             </div>
                         </div>
@@ -282,11 +296,87 @@ export const Projects = () => {
                                         <img className="share" src={Share} alt="" />
                                     </div>
                                     <button onClick={closeModalTre}><p>Fechar</p></button>
-                                    <span className="version">Atualizado em 04-07-2022</span>
+                                    <span className="version">O site pode não estar disponível devido a administração do cliente. Atualizado em 04-07-2022*</span>
                                 </Modal>
                             </div>
                         </div>
                     </div>
+
+                    <div className="project">
+                        <img src={Turnflix} alt="Turnflix" />
+                        <div className="drop">
+                            <div className="text">
+                                <button onClick={openModalFor} className="btn-down"><p>Ver mais</p></button>
+
+                                <Modal
+                                    isOpen={modalForIsOpen}
+                                    onRequestClose={closeModalFor}
+                                    contentLabel="Modal Example"
+                                    overLayClassName="modal-overlay"
+                                    className="modal-content"
+                                >
+                                    <Swiper
+                                        pagination={{
+                                            clickable: true,
+                                        }}
+                                        navigation={true}
+                                        loop={true}
+                                        slidesPerView={1}
+                                        autoplay={{ delay: 5000 }}
+                                        modules={[Pagination, Navigation]}
+                                    >
+                                        <SwiperSlide><img src={Turnflix1} alt="mockup site logo" /></SwiperSlide>
+                                        <SwiperSlide><img src={Turnflix2} alt="mockup site desktop" /></SwiperSlide>
+                                        <SwiperSlide><img src={Turnflix3} alt="mockup site mobile" /></SwiperSlide>
+                                    </Swiper>
+                                    <h4>Turnflix</h4>
+                                    <hr />
+                                    <div className="skill-camp">
+                                        <div className="skill-box">
+                                            <span>HTML 5</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>CSS 3</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>React</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Visual Studio Code</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>SEO</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Figma</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Git</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Github</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>UI</span>
+                                        </div>
+                                    </div>
+                                    <div className="content-link">
+                                        <a href="https://turnflix.com/" target='_blank' rel='noreferrer' >turnflix.com</a>
+                                        <img className="share" src={Share} alt="" />
+                                    </div>
+                                    <button onClick={closeModalFor}><p>Fechar</p></button>
+                                    <span className="version">O site pode não estar disponível devido a administração do cliente. Atualizado em 04-07-2022*</span>
+                                </Modal>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="project">
+                        <div className="more">
+                            <img src={More} alt="More" />
+                        </div>
+                    </div>
+
 
                 </div>
             </div >

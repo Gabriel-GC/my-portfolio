@@ -41,6 +41,19 @@
     height: 100%;
     object-fit: cover;
 }
+.more{
+    animation: load infinite 2s ease-in-out;
+    cursor: progress;
+}
+
+@keyframes load {
+    0%, 100% {
+        opacity: 60%;
+    }
+    50% {
+        opacity: 20%;
+    }
+}
 
 .text {
     opacity: 0;
@@ -114,7 +127,7 @@
 }
 
 .version {
-    opacity: 20%;
+    opacity: 15%;
     text-align: center;
     font-size: 10px;
 }

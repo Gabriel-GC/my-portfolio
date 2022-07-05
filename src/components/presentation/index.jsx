@@ -12,7 +12,7 @@ export const Presentation = () => {
         <div className="container-right">
           <div className="content-right">
             <p className='p-title'>Sobre</p>
-            <p>Desenvolvedor front-end, amante e <em>hater</em> de CSS, se aprimorando no back-end em Javascript React/Node.</p>
+            <p>Desenvolvedor front-end, amante e de CSS, se aprimorando no back-end em Javascript React/Node.</p>
           </div>
           <div className="content-right">
             <p className='p-title'>Contato</p>

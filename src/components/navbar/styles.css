@@ -11,7 +11,15 @@
     border-bottom: 1px solid rgba(170, 170, 170, 0.1);
 }
 
-  
+.nav-contact a {
+    padding: 8px;
+}
+
+.nav-contact :hover{
+    border-radius: 10px;
+    background: rgba(170, 170, 170, 0.1);
+}
+
   .navbar > .nav-items > a {
     color: #ffffff;
     font-size: 16px;
