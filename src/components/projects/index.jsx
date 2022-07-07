@@ -1,5 +1,10 @@
 import { useState } from "react";
+
+import { i18n } from "../../translate/i18n";
+
 import Modal from "react-modal/lib/components/Modal";
+
+import './styles.css';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -10,6 +15,7 @@ import { Pagination, Navigation } from "swiper";
 import Share from "../../assets/icons/share.png";
 import More from "../../assets/photos/foto-capa-modal-morepost.png";
 
+//modal imports
 
 import Turnflix from "../../assets/photos/projects/turnflix/turnflix-capa.png";
 import Turnflix1 from "../../assets/photos/projects/turnflix/turnflix-project-one.png";
@@ -31,10 +37,6 @@ import Portfolio1 from "../../assets/photos/projects/portfolio/portfolio-project
 import Portfolio2 from "../../assets/photos/projects/portfolio/portfolio-project-desktop.png";
 import Portfolio3 from "../../assets/photos/projects/portfolio/portfolio-project-mobile.png";
 
-
-
-
-import './styles.css';
 
 Modal.setAppElement("#root");
 
@@ -82,15 +84,15 @@ export const Projects = () => {
             <span id="projects"></span>
             <div className="container-projects">
                 <div className="txt-projects">
-                    <div className="p-title">Projetos</div>
-                    <h4>Desenvolvimentos e participações</h4>
+                    <div className="p-title">{i18n.t('projects.project')}</div>
+                    <h4>{i18n.t('projects.development')}</h4>
                 </div>
                 <div className="grid-projects">
                     <div className="project">
                         <img src={Verbena} alt="Verbena" />
                         <div className="drop">
                             <div className="text">
-                                <button onClick={openModalOne} className="btn-down"><p>Ver mais</p></button>
+                                <button onClick={openModalOne} className="btn-down"><p>{i18n.t('projects.seemore')}</p></button>
                                 <Modal
                                     isOpen={modalOneIsOpen}
                                     onRequestClose={closeModalOne}
@@ -150,8 +152,8 @@ export const Projects = () => {
                                         <a href="https://verbenaclub.com/" target='_blank' rel='noreferrer' >verbenaclub.com</a>
                                         <img className="share" src={Share} alt="Share" />
                                     </div>
-                                    <button onClick={closeModalOne}><p>Fechar</p></button>
-                                    <span className="version">O site pode não estar disponível devido a administração do cliente. Atualizado em 04-07-2022*</span>
+                                    <button onClick={closeModalOne}><p>{i18n.t('projects.modal_button')}</p></button>
+                                    <span className="version">{i18n.t('projects.modal_warning')}</span>
                                 </Modal>
                             </div>
                         </div>
@@ -161,7 +163,7 @@ export const Projects = () => {
                         <img src={Portfolio} alt="Portfolio" />
                         <div className="drop">
                             <div className="text">
-                                <button onClick={openModalTwo} className="btn-down"><p>Ver mais</p></button>
+                                <button onClick={openModalTwo} className="btn-down"><p>{i18n.t('projects.seemore')}</p></button>
                                 <Modal
                                     isOpen={modalTwoIsOpen}
                                     onRequestClose={closeModalTwo}
@@ -183,7 +185,7 @@ export const Projects = () => {
                                         <SwiperSlide><img src={Portfolio2} alt="mockup site desktop" /></SwiperSlide>
                                         <SwiperSlide><img src={Portfolio3} alt="mockup site mobile" /></SwiperSlide>
                                     </Swiper>
-                                    <h4>Meu portfolio - Gabriel</h4>
+                                    <h4>Portfolio - Gabriel</h4>
                                     <hr />
                                     <div className="skill-camp">
                                         <div className="skill-box">
@@ -224,8 +226,8 @@ export const Projects = () => {
                                         <a href="https://portfoliogabrielgc.netlify.app/" target='_blank' rel='noreferrer' >portfoliogabrielgc.netlify.app</a>
                                         <img className="share" src={Share} alt="" />
                                     </div>
-                                    <button onClick={closeModalTwo}><p>Fechar</p></button>
-                                    <span className="version">O site pode não estar disponível devido a administração do cliente. Atualizado em 04-07-2022*</span>
+                                    <button onClick={closeModalTwo}><p>{i18n.t('projects.modal_button')}</p></button>
+                                    <span className="version">{i18n.t('projects.modal_warning')}</span>
                                 </Modal>
                             </div>
                         </div>
@@ -235,7 +237,7 @@ export const Projects = () => {
                         <img src={Postevent} alt="Postevent" />
                         <div className="drop">
                             <div className="text">
-                                <button onClick={openModalTre} className="btn-down"><p>Ver mais</p></button>
+                                <button onClick={openModalTre} className="btn-down"><p>{i18n.t('projects.seemore')}</p></button>
                                 <Modal
                                     isOpen={modalTreIsOpen}
                                     onRequestClose={closeModalTre}
@@ -295,8 +297,8 @@ export const Projects = () => {
                                         <a href="https://postevent.netlify.app/" target='_blank' rel='noreferrer' >postevent.netlify.app</a>
                                         <img className="share" src={Share} alt="" />
                                     </div>
-                                    <button onClick={closeModalTre}><p>Fechar</p></button>
-                                    <span className="version">O site pode não estar disponível devido a administração do cliente. Atualizado em 04-07-2022*</span>
+                                    <button onClick={closeModalTre}><p>{i18n.t('projects.modal_button')}</p></button>
+                                    <span className="version">{i18n.t('projects.modal_warning')}</span>
                                 </Modal>
                             </div>
                         </div>
@@ -306,7 +308,7 @@ export const Projects = () => {
                         <img src={Turnflix} alt="Turnflix" />
                         <div className="drop">
                             <div className="text">
-                                <button onClick={openModalFor} className="btn-down"><p>Ver mais</p></button>
+                                <button onClick={openModalFor} className="btn-down"><p>{i18n.t('projects.seemore')}</p></button>
 
                                 <Modal
                                     isOpen={modalForIsOpen}
@@ -364,8 +366,8 @@ export const Projects = () => {
                                         <a href="https://turnflix.com/" target='_blank' rel='noreferrer' >turnflix.com</a>
                                         <img className="share" src={Share} alt="" />
                                     </div>
-                                    <button onClick={closeModalFor}><p>Fechar</p></button>
-                                    <span className="version">O site pode não estar disponível devido a administração do cliente. Atualizado em 04-07-2022*</span>
+                                    <button onClick={closeModalFor}><p>{i18n.t('projects.modal_button')}</p></button>
+                                    <span className="version">{i18n.t('projects.modal_warning')}</span>
                                 </Modal>
                             </div>
                         </div>

@@ -1,3 +1,5 @@
+import { i18n } from "../../translate/i18n";
+
 import './styles.css';
 
 import Linkedin from "../../assets/icons/linkedin.png";
@@ -15,7 +17,7 @@ export const Contact = () => {
             <span id="contact"></span>
             <div className="container-contact">
                 <div className="content-contact">
-                    <p className='p-contact'>Envie um e-mail para</p>
+                    <p className='p-contact'>{i18n.t('contact.send')}</p>
                 </div>
                 <div className="content-contact-text">
                     <a href="mailto:goncalves.cunhaa@gmail.com?subject=CONTATO BY PORTFOLIO">
@@ -23,7 +25,7 @@ export const Contact = () => {
                     </a>
                 </div>
                 <div className="content-contact">
-                    <p className='p-title'>Siga</p>
+                    <p className='p-title'>{i18n.t('contact.follow')}</p>
                 </div>
                 <div className="content-contact-image">
                     <a href="https://api.whatsapp.com/send?phone=5547999963122&text=Ol%C3%A1%2C%20vamos%20marcar%20uma%20call%20%3F" target="_blank" rel="noreferrer">

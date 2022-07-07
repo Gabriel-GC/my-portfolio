@@ -1,3 +1,5 @@
+import { i18n } from "../../translate/i18n";
+
 import './styles.css';
 
 import Blur from "../../assets/icons/blur.png";
@@ -17,9 +19,8 @@ export const Skills = () => {
             <span id="skills"></span>
             <div className="container-skills">
                 <div className="txt">
-                    <h3>Foco e skills</h3>
-                    <p>Me considero muito aplicado na resolução de problemas. Acho que compartilhar soluções gera inspiração, quero ter a oportunidade e, no momento favorável, ensinar esses passos para iniciantes, conforme eu fui orientado e startado no mundo Dev.</p>
-                    {/* <p>I am very interested and easy to learn, I consider myself very applied in problem solving. I think that sharing solutions generates inspiration, I want to have the opportunity to grow and, at the opportunity, teach these steps to beginners, as I was instructed.</p> */}
+                    <h3>{i18n.t('skills.focus')}</h3>
+                    <p>{i18n.t('skills.p')}</p>
                     <div className="skill-camp">
                         <div className="skill-box">
                             <span>HTML 5</span>

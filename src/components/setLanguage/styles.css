@@ -1,0 +1,62 @@
+.set-container{
+    z-index: 20;
+    display: flex;
+    width: 70px;
+    height: 130px;
+    top: 30%;
+    right: 0;
+    position: fixed;
+    background: rgba(70, 70, 70, 0.2);
+    border-radius: 20px 0 0 20px ;
+    transition: 0.4s;
+}
+
+.set-container:hover{
+    width: 100px;
+
+}
+
+.set-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+img{
+    display: block;
+    cursor: pointer;
+  }
+  .flagBR {
+    width: 26px;
+    filter: grayscale(2);
+  }
+  .flagBR:hover{
+    filter: grayscale(0);
+  }
+  .flagEN {
+    width: 26px;
+    filter: grayscale(2);
+  }
+  .flagEN:hover{
+    filter: grayscale(0);
+  }
+  .flagES {
+    width: 26px;
+    filter: grayscale(2);
+  }
+  .flagES:hover{
+    filter: grayscale(0);
+  }
+
+  .active{
+    filter: grayscale(0);
+  }
+
+@media only screen and (max-width: 1080px){
+    .set-container{
+        display: none;
+    }
+}

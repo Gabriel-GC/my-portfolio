@@ -1,7 +1,10 @@
+import { i18n } from "../../translate/i18n";
+
+import './styles.css';
+
 import Perfil from "../../assets/photos/profile.jpg";
 import Profile from "../../assets/profile/front-end-gabriel-gc.pdf";
 
-import './styles.css';
 
 
 export const Presentation = () => {
@@ -11,14 +14,14 @@ export const Presentation = () => {
       <div className="container-presentation">
         <div className="container-right">
           <div className="content-right">
-            <p className='p-title'>Sobre</p>
-            <p>Desenvolvedor front-end, amante e <em>hater</em> de CSS HTML, em constante evolução e aprendizado ao Fullstack.</p>
+            <p className='p-title'>{i18n.t('presentation.about')}</p>
+            <p>{i18n.t('presentation.about_text1')} <em>{i18n.t('presentation.about_em')}</em> {i18n.t('presentation.about_text2')}</p>
           </div>
           <div className="content-right">
-            <p className='p-title'>Mora em</p>
-            <p>Balneário Camboriú</p>
-            <p>Santa Catarina</p>
-            <p>Brasil</p>
+            <p className='p-title'>{i18n.t('presentation.address')}</p>
+            <p>{i18n.t('presentation.address_text1')}</p>
+            <p>{i18n.t('presentation.address_text2')}</p>
+            <p>{i18n.t('presentation.address_text3')}</p>
           </div>
         </div>
         <div className="container-center">
@@ -28,14 +31,13 @@ export const Presentation = () => {
         </div>
         <div className="container-left">
           <div className="content-left">
-            <p className='p-title'>Experiência</p>
-            <p>1 - 3 anos</p>
-            <p>Junior</p>
+            <p className='p-title'>{i18n.t('presentation.experience')}</p>
+            <p>{i18n.t('presentation.experience_text')}</p>
           </div>
           <div className="content-left">
-            <p className='p-title'>Download</p>
+            <p className='p-title'>{i18n.t('presentation.download')}</p>
             <a className='btn-down' href={Profile} download="Front-end Gabriel" target='_blank' rel='noreferrer'>
-              Curriculum.pdf
+            {i18n.t('presentation.download_button')}
             </a>
           </div>
         </div>
