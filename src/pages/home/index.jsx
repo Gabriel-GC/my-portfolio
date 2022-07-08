@@ -27,9 +27,7 @@ export const Home = () => {
   };
 
   useEffect(() => {
-    console.log(i18n.language);
     if (i18n.language === "pt-BR") {
-      console.log("caiu");
       handleSelectChange("pt");
     }
     if (window.outerWidth < mobWidth) {
