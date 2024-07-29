@@ -26,7 +26,7 @@ const messages = {
                 about_text2:'de CSS HTML, en constante evolución y aprendizaje a Fullstack.',
                 about_em:'hater',
                 address:'VIVE EN',
-                address_text1:'Balneário Camboriú',
+                address_text1:'Navegantes',
                 address_text2:'Santa Catarina',
                 address_text3:'Brasil',
                 experience:'EXPERIENCIA',
