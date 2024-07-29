@@ -3,7 +3,7 @@ import { i18n } from "../../translate/i18n";
 import './styles.css';
 
 import Perfil from "../../assets/photos/profile.jpg";
-import Profile from "../../assets/profile/front-end-gabriel-gc.pdf";
+import Profile from "../../assets/profile/gabriel-goncalves-cunha.pdf";
 
 
 
@@ -36,7 +36,7 @@ export const Presentation = () => {
           </div>
           <div className="content-left">
             <p className='p-title'>{i18n.t('presentation.download')}</p>
-            <a className='btn-down' href={Profile} download="Front-end Gabriel" target='_blank' rel='noreferrer'>
+            <a className='btn-down' href={Profile} download="Gabriel Gonçalves Cunha" target='_blank' rel='noreferrer'>
             {i18n.t('presentation.download_button')}
             </a>
           </div>

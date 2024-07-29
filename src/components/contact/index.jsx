@@ -32,7 +32,7 @@ export const Contact = () => {
                         <img src={Whats} alt="WhatsApp" />
                     </a>
 
-                    <a href="https://www.linkedin.com/in/gabriel-gon%C3%A7alves-cunha-42a67214a/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/gabriel-gon%C3%A7alves-cunha-37347b305/" target="_blank" rel="noreferrer">
                         <img src={Linkedin} alt="Linkedin" />
                     </a>
 
