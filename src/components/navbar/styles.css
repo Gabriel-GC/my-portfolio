@@ -7,8 +7,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(170, 170, 170, 0.2);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(3px);
+
+
+
 }
 
 .nav-contact a {
@@ -39,7 +42,9 @@
 
 @media (max-width: 1080px) {
   .navbar {
-    backdrop-filter: blur(3px);
+    backdrop-filter: none;
+    background: var(--main-primary);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
   .navbar > .nav-items {
     position: absolute;
@@ -54,9 +59,12 @@
     transition: all 0.45s;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 0 0 0 20px;
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(3px);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+  }
+  .navbar > .nav-items a {
+    text-shadow: rgba(0, 0, 0, 0.9) 3px 2px 3px;
   }
 
   .navbar > .nav-items > a::before {
@@ -117,5 +125,8 @@
 
   .nav-toggle.open > .bar::after {
     transform: rotate(-45deg) translate(26px, 26px);
+  }
+  .perfil-img {
+    border-radius: 2rem;
   }
 }
