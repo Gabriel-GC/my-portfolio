@@ -8,9 +8,6 @@ import Facebook from "../../assets/icons/facebook.png";
 import Github from "../../assets/icons/github.png";
 import Source from "../../assets/icons/source.png";
 
-
-
-
 export const Contact = () => {
     return (
         <>

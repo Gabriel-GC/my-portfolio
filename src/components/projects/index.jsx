@@ -37,6 +37,15 @@ import Portfolio1 from "../../assets/photos/projects/portfolio/portfolio-project
 import Portfolio2 from "../../assets/photos/projects/portfolio/portfolio-project-desktop.png";
 import Portfolio3 from "../../assets/photos/projects/portfolio/portfolio-project-mobile.png";
 
+import Alpes from "../../assets/photos/projects/alpes/alpes.webp";
+import Alpes_logo from "../../assets/photos/projects/alpes/alpes-logo.webp";
+import Alpes_desk from "../../assets/photos/projects/alpes/alpes-desk.webp";
+import Alpes_mobile from "../../assets/photos/projects/alpes/alpes-mobile.webp";
+
+import Jeep from "../../assets/photos/projects/jeep/jeep.webp"
+import Jeep_logo from "../../assets/photos/projects/jeep/jeep-capa.jpg"
+import Jeep_desk from "../../assets/photos/projects/jeep/jeep-desk.webp"
+import Jeep_mobile from "../../assets/photos/projects/jeep/jeep-mobile.jpg"
 
 Modal.setAppElement("#root");
 
@@ -46,6 +55,8 @@ export const Projects = () => {
     const [modalTwoIsOpen, setTwoIsOpen] = useState(false);
     const [modalTreIsOpen, setTreIsOpen] = useState(false);
     const [modalForIsOpen, setForIsOpen] = useState(false);
+    const [modalFiveIsOpen, setFiveIsOpen] = useState(false);
+    const [modalSixIsOpen, setSixIsOpen] = useState(false);
 
 
     function openModalOne() {
@@ -63,6 +74,7 @@ export const Projects = () => {
     function closeModalTwo() {
         setTwoIsOpen(false);
     }
+
     function openModalTre() {
         setTreIsOpen(true);
     }
@@ -77,6 +89,22 @@ export const Projects = () => {
 
     function closeModalFor() {
         setForIsOpen(false);
+    }
+
+    function openModalFive() {
+        setFiveIsOpen(true);
+    }
+
+    function closeModalFive() {
+        setFiveIsOpen(false);
+    }
+
+    function openModalSix() {
+        setSixIsOpen(true);
+    }
+
+    function closeModalSix() {
+        setSixIsOpen(false);
     }
 
     return (
@@ -367,6 +395,144 @@ export const Projects = () => {
                                         <img className="share" src={Share} alt="" />
                                     </div>
                                     <button onClick={closeModalFor}><p>{i18n.t('projects.modal_button')}</p></button>
+                                    <span className="version">{i18n.t('projects.modal_warning')}</span>
+                                </Modal>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="project">
+                        <img src={Alpes} alt="Alpes" />
+                        <div className="drop">
+                            <div className="text">
+                                <button onClick={openModalFive} className="btn-down"><p>{i18n.t('projects.seemore')}</p></button>
+
+                                <Modal
+                                    isOpen={modalFiveIsOpen}
+                                    onRequestClose={closeModalFive}
+                                    contentLabel="Modal Example"
+                                    overLayClassName="modal-overlay"
+                                    className="modal-content"
+                                >
+                                    <Swiper
+                                        pagination={{
+                                            clickable: true,
+                                        }}
+                                        navigation={true}
+                                        loop={true}
+                                        slidesPerView={1}
+                                        autoplay={{ delay: 5000 }}
+                                        modules={[Pagination, Navigation]}
+                                    >
+                                        <SwiperSlide><img src={Alpes_logo} alt="mockup site logo" /></SwiperSlide>
+                                        <SwiperSlide><img src={Alpes_desk} alt="mockup site desktop" /></SwiperSlide>
+                                        <SwiperSlide><img src={Alpes_mobile} alt="mockup site mobile" /></SwiperSlide>
+                                    </Swiper>
+                                    <h4>Alpes</h4>
+                                    <hr />
+                                    <div className="skill-camp">
+                                        <div className="skill-box">
+                                            <span>HTML 5</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>CSS 3</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Photoshop</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Visual Studio Code</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>SEO</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Figma</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Git</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Github</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>UI</span>
+                                        </div>
+                                    </div>
+                                    <div className="content-link">
+                                        <a href="https://alpes.netlify.app/" target='_blank' rel='noreferrer' >alpes.netlify.app</a>
+                                        <img className="share" src={Share} alt="" />
+                                    </div>
+                                    <button onClick={closeModalFive}><p>{i18n.t('projects.modal_button')}</p></button>
+                                    <span className="version">{i18n.t('projects.modal_warning')}</span>
+                                </Modal>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="project">
+                        <img src={Jeep} alt="Jeep Form" />
+                        <div className="drop">
+                            <div className="text">
+                                <button onClick={openModalSix} className="btn-down"><p>{i18n.t('projects.seemore')}</p></button>
+
+                                <Modal
+                                    isOpen={modalSixIsOpen}
+                                    onRequestClose={closeModalSix}
+                                    contentLabel="Modal Example"
+                                    overLayClassName="modal-overlay"
+                                    className="modal-content"
+                                >
+                                    <Swiper
+                                        pagination={{
+                                            clickable: true,
+                                        }}
+                                        navigation={true}
+                                        loop={true}
+                                        slidesPerView={1}
+                                        autoplay={{ delay: 5000 }}
+                                        modules={[Pagination, Navigation]}
+                                    >
+                                        <SwiperSlide><img src={Jeep_logo} alt="mockup site logo" /></SwiperSlide>
+                                        <SwiperSlide><img src={Jeep_desk} alt="mockup site desktop" /></SwiperSlide>
+                                        <SwiperSlide><img src={Jeep_mobile} alt="mockup site mobile" /></SwiperSlide>
+                                    </Swiper>
+                                    <h4>Jeep Form</h4>
+                                    <hr />
+                                    <div className="skill-camp">
+                                        <div className="skill-box">
+                                            <span>HTML 5</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>CSS 3</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Photoshop</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Visual Studio Code</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>SEO</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Figma</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Git</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Github</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>UI</span>
+                                        </div>
+                                    </div>
+                                    <div className="content-link">
+                                        <a href="https://form-totest.netlify.app/" target='_blank' rel='noreferrer' >form-totest.netlify.app</a>
+                                        <img className="share" src={Share} alt="" />
+                                    </div>
+                                    <button onClick={closeModalSix}><p>{i18n.t('projects.modal_button')}</p></button>
                                     <span className="version">{i18n.t('projects.modal_warning')}</span>
                                 </Modal>
                             </div>
