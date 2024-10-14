@@ -37,6 +37,17 @@
   background: rgba(170, 170, 170, 0.3);
   transform: scale(1.1);
 }
+.skill-box-pro {
+  display: flex;
+  background: rgb(175, 134, 29, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.skill-box-pro:hover {
+  background: rgba(218, 165, 32, 0.3);
+  transform: scale(1.1);
+}
 
 .asset {
   position: relative;

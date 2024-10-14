@@ -25,7 +25,7 @@ export const Skills = () => {
 
           <p className="sub-p">Frameworks / Library / Languages</p>
           <div className="skill-camp">
-            <div className="skill-box">
+            <div className="skill-box-pro">
               <span>React.js</span>
             </div>
             <div className="skill-box">
@@ -36,10 +36,10 @@ export const Skills = () => {
               <span>React</span>
             </div>
             <p className="dot">.</p>
-            <div className="skill-box">
+            <div className="skill-box-pro">
               <span>HTML</span>
             </div>
-            <div className="skill-box">
+            <div className="skill-box-pro">
               <span>CSS</span>
             </div>
             <div className="skill-box">
@@ -49,7 +49,7 @@ export const Skills = () => {
 
           <p className="sub-p">Tools / Design web </p>
           <div className="skill-camp">
-            <div className="skill-box">
+            <div className="skill-box-pro">
               <span>Visual Studio</span>
             </div>
             <div className="skill-box">
@@ -59,7 +59,7 @@ export const Skills = () => {
             <div className="skill-box">
               <span>UX/UI</span>
             </div>
-            <div className="skill-box">
+            <div className="skill-box-pro">
               <span>Photoshop</span>
             </div>
             <div className="skill-box">
@@ -82,7 +82,7 @@ export const Skills = () => {
             <div className="skill-box">
               <span>Digital Ocean</span>
             </div>
-            <div className="skill-box">
+            <div className="skill-box-pro">
               <span>Netlifly</span>
             </div>
           </div>
@@ -92,7 +92,7 @@ export const Skills = () => {
             <div className="skill-box">
               <span>Git</span>
             </div>
-            <div className="skill-box">
+            <div className="skill-box-pro">
               <span>Gitub</span>
             </div>
             <p className="dot">.</p>
