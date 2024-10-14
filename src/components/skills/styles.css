@@ -84,59 +84,126 @@ img.blur {
 }
 
 .tech:nth-child(1) {
+  animation: float1 6s ease-in-out infinite;
   transform: translate(30%, -20%) scale(0.9) translateY(2rem);
 }
 
-.tech:nth-child(1):hover {
-  transform: translate(20%, -20%) translateY(1rem) scale(1.1);
-}
 .tech:nth-child(2) {
+  animation: float2 5s ease-in-out infinite;
   transform: translate(0px, -2rem) scale(1.2);
 }
-.tech:nth-child(2):hover {
-  transform: translate(2px, -3rem) scale(1.2);
-}
+
 .tech:nth-child(3) {
+  animation: float3 5s ease-in-out infinite;
   transform: translate(-25%, -25%) scale(0.8) translateY(1rem);
 }
-.tech:nth-child(3):hover {
-  transform: scale(1.1);
-}
+
 .tech:nth-child(4) {
+  animation: float4 5s ease-in-out infinite;
+
   transform: translate(25px, 0px) translateX(-1rem);
 }
-.tech:nth-child(4):hover {
-  transform: scale(1.1);
-}
 .tech:nth-child(5) {
+  animation: float5 4s ease-in-out infinite;
   transform: translate(20px, 0px) translateY(-1rem) translateX(-2rem);
 }
-.tech:nth-child(5):hover {
-  transform: scale(1.1);
-}
 .tech:nth-child(6) {
+  animation: float6 5s ease-in-out infinite;
   transform: translate(0px, 0px);
 }
-.tech:nth-child(6):hover {
-  transform: translate(-20px, -1rem) scale(1.1);
-}
 .tech:nth-child(7) {
+  animation: float7 5s ease-in-out infinite;
   transform: translate(35%, 0%) translateX(2rem) translateY(0px) scale(1.1);
 }
-.tech:nth-child(7):hover {
-  transform: translate(35%, 0%) translateX(1rem) translateY(20px) scale(1.2);
-}
 .tech:nth-child(8) {
+  animation: float8 5s ease-in-out infinite;
   transform: translate(35px, -10px) scale(0.7);
 }
-.tech:nth-child(8):hover {
-  transform: translate(25px, -20px) scale(0.9);
-}
 .tech:nth-child(9) {
+  animation: float9 4s ease-in-out infinite;
   transform: translate(-15%, 35%) scale(1.1);
 }
-.tech:nth-child(9):hover {
-  transform: scale(1);
+
+@keyframes float1 {
+  0%,
+  100% {
+    transform: translate(30%, -20%) scale(0.9) translateY(2rem);
+  }
+  50% {
+    transform: translate(20%, -20%) scale(0.8) translateY(3rem);
+  }
+}
+@keyframes float2 {
+  0%,
+  100% {
+    transform: translate(0px, -2rem) scale(1.2);
+  }
+  50% {
+    transform: translate(10px, -3rem) scale(1.3);
+  }
+}
+@keyframes float3 {
+  0%,
+  100% {
+    transform: translate(-25%, -25%) scale(0.8) translateY(1rem);
+  }
+  50% {
+    transform: translate(-25%, -25%) scale(0.8) translateY(3rem);
+  }
+}
+@keyframes float4 {
+  0%,
+  100% {
+  transform: translate(25px, 0px) translateX(-1rem);
+  }
+  50% {
+  transform: translate(25px, 10px) translateX(-1rem) translateY(10px);
+  }
+}
+@keyframes float5 {
+  0%,
+  100% {
+  transform: translate(20px, 0px) translateY(-1rem) translateX(-2rem);
+  }
+  50% {
+  transform: translate(30px, 0px) translateY(0rem) translateX(-2rem);
+  }
+}
+@keyframes float6 {
+  0%,
+  100% {
+  transform: translate(0px, 0px);
+  }
+  50% {
+  transform: translate(10px, 20px);
+  }
+}
+@keyframes float7 {
+  0%,
+  100% {
+  transform: translate(35%, 0%) translateX(2rem) translateY(0px) scale(1.1);
+  }
+  50% {
+  transform: translate(35%, 0%) translateX(1rem) translateY(20px) scale(1.1);
+  }
+}
+@keyframes float8 {
+  0%,
+  100% {
+  transform: translate(35px, -10px) scale(0.7);
+  }
+  50% {
+  transform: translate(25px, 10px) scale(0.8);
+  }
+}
+@keyframes float9 {
+  0%,
+  100% {
+  transform: translate(-15%, 35%) scale(1.1);
+  }
+  50% {
+    transform: translate(-5%, 40%) scale(1.2);
+  }
 }
 
 @media only screen and (max-width: 1180px) {
