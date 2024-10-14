@@ -249,6 +249,7 @@ img.blur {
   }
 
   .txt {
+    gap: 25px;
     width: 100%;
   }
   .txt hr {

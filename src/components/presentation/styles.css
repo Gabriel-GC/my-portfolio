@@ -38,7 +38,7 @@
 
 .perfil-img{
   display: flex;
-  border-radius: 4rem;
+  border-radius: 3rem;
   padding: 10px;
   background: rgba(170, 170 ,170 ,0.1);
   max-width: 80%;
