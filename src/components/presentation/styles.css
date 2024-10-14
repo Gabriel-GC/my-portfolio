@@ -43,6 +43,7 @@
   background: rgba(170, 170 ,170 ,0.1);
   max-width: 80%;
   transition: all 0.4s;
+  cursor: default;
 }
 .perfil-img:hover{
   background: rgba(170, 170 ,170 ,0.3);
