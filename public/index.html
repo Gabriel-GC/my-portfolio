@@ -43,6 +43,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon-128x128.png" />
+    <link rel="stylesheet" href="syles.css">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -60,6 +61,22 @@
     <title>Gabriel - Desenvolvedor Front-end</title>
   </head>
   <body>
+    <div id='cursor-bg'></div>
+    <script>
+      const bg = document.getElementById('cursor-bg');
+  
+      document.addEventListener('pointermove', (e) => {
+        bg.style.display = 'block';
+  
+        bg.animate ({
+          top: e.pageY + 'px',
+          left: e.pageX + 'px'
+        }, {
+          duration: 10,
+          fill: 'forwards'
+        })
+      })
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
