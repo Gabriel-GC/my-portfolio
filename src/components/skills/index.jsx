@@ -35,6 +35,12 @@ export const Skills = () => {
             <div className="skill-box">
               <span>React</span>
             </div>
+            <div className="skill-box">
+              <span>Material Design</span>
+            </div>
+            <div className="skill-box">
+              <span>SCSS</span>
+            </div>
             <p className="dot">.</p>
             <div className="skill-box-pro">
               <span>HTML</span>
@@ -44,6 +50,9 @@ export const Skills = () => {
             </div>
             <div className="skill-box">
               <span>JavaScript</span>
+            </div>
+            <div className="skill-box">
+              <span>Python</span>
             </div>
           </div>
 
