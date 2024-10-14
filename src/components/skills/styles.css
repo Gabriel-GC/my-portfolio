@@ -29,8 +29,9 @@
 .skill-box {
   display: flex;
   background: rgba(170, 170, 170, 0.1);
+
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   transition: all 0.5s;
 }
 .skill-box:hover {
@@ -39,13 +40,27 @@
 }
 .skill-box-pro {
   display: flex;
-  background: rgb(175, 134, 29, 0.5);
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   transition: all 0.5s;
 }
 .skill-box-pro:hover {
-  background: rgba(218, 165, 32, 0.3);
   transform: scale(1.1);
 }
 
@@ -86,8 +101,13 @@ img.blur {
   width: 70%;
   height: 7rem;
   background: rgba(170, 170, 170, 0.1);
-  border-radius: 2rem;
+  border-radius: 1rem;
   transition: all 0.5s;
+  cursor: default;
+}
+.tech img {
+  cursor: default;
+
 }
 
 .tech:hover {
@@ -165,52 +185,52 @@ img.blur {
 @keyframes float4 {
   0%,
   100% {
-  transform: translate(25px, 0px) translateX(-1rem);
+    transform: translate(25px, 0px) translateX(-1rem);
   }
   50% {
-  transform: translate(25px, 10px) translateX(-1rem) translateY(10px);
+    transform: translate(25px, 10px) translateX(-1rem) translateY(10px);
   }
 }
 @keyframes float5 {
   0%,
   100% {
-  transform: translate(20px, 0px) translateY(-1rem) translateX(-2rem);
+    transform: translate(20px, 0px) translateY(-1rem) translateX(-2rem);
   }
   50% {
-  transform: translate(30px, 0px) translateY(0rem) translateX(-2rem);
+    transform: translate(30px, 0px) translateY(0rem) translateX(-2rem);
   }
 }
 @keyframes float6 {
   0%,
   100% {
-  transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
   }
   50% {
-  transform: translate(10px, 20px);
+    transform: translate(10px, 20px);
   }
 }
 @keyframes float7 {
   0%,
   100% {
-  transform: translate(35%, 0%) translateX(2rem) translateY(0px) scale(1.1);
+    transform: translate(35%, 0%) translateX(2rem) translateY(0px) scale(1.1);
   }
   50% {
-  transform: translate(35%, 0%) translateX(1rem) translateY(20px) scale(1.1);
+    transform: translate(35%, 0%) translateX(1rem) translateY(20px) scale(1.1);
   }
 }
 @keyframes float8 {
   0%,
   100% {
-  transform: translate(35px, -10px) scale(0.7);
+    transform: translate(35px, -10px) scale(0.7);
   }
   50% {
-  transform: translate(25px, 10px) scale(0.8);
+    transform: translate(25px, 10px) scale(0.8);
   }
 }
 @keyframes float9 {
   0%,
   100% {
-  transform: translate(-15%, 35%) scale(1.1);
+    transform: translate(-15%, 35%) scale(1.1);
   }
   50% {
     transform: translate(-5%, 40%) scale(1.2);

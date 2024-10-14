@@ -30,6 +30,10 @@
   border-radius: 10px;
   overflow: hidden;
   border: 1px solid rgba(70, 70, 70, 0.3);
+  transition: 0.1s;
+}
+.project:hover {
+  transform: scale(1.02);
 }
 
 .project img {
@@ -41,9 +45,9 @@
   height: 100%;
   object-fit: cover;
 }
-.more {
+.more img {
   animation: load infinite 2s ease-in-out;
-  cursor: progress;
+  cursor: wait;
 }
 
 @keyframes load {
@@ -109,8 +113,8 @@
   gap: 15px;
   max-width: 600px;
   max-height: 98%;
-  background-color: rgba(15, 15, 15, 0.95);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--background-gradient);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
   border-radius: 10px;
 }

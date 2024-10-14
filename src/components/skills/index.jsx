@@ -69,7 +69,7 @@ export const Skills = () => {
 
           <p className="sub-p">Google / Hosting</p>
           <div className="skill-camp">
-            <div className="skill-box">
+            <div className="skill-box-pro">
               <span>SEO</span>
             </div>
             <div className="skill-box">
