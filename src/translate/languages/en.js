@@ -17,14 +17,12 @@ const messages = {
                 h1:'Gabriel Gonçalves Cunha',
                 h2:'Developer',
                 em:'front end.',
-                p:'A front-end developer (improving the back-end in Javascript React/Node) coding elegant, objective and SEO-optimized applications.'
+                p:'Creating efficient and optimized interfaces'
             },
 
             presentation:{
                 about:'ABOUT',
-                about_text1:'Front-end developer, lover and',
-                about_text2:'of CSS HTML, in constant evolution and learning to Fullstack.',
-                about_em:'hater',
+                about_text1:'Eclectic, flexible, optimistic. I am willing to make whatever is in my hands work to the best of my ability.',
                 address:'LIVE ON',
                 address_text1:'Navegantes',
                 address_text2:'Santa Catarina',
@@ -32,12 +30,12 @@ const messages = {
                 experience:'EXPERIENCE',
                 experience_text:'1 - 3 years | Junior',
                 download:'DOWNLOAD',
-                download_button:'Curriculum.pdf'
+                download_button:'Profile.pdf'
             },
 
             skills:{
                 focus:'Focus and skills',
-                p:'I consider myself very applied in problem solving. I think sharing solutions generates inspiration, I want to have the opportunity and, at the right time, teach these steps to beginners, as I was guided and started in the Dev world.'
+                p:'I consider myself applied in problem solving. I think sharing solutions generates inspiration, I want to have the opportunity and, at the right time, teach these steps to beginners, as I was guided and started in the Dev world.'
             },
 
             projects:{

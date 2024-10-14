@@ -41,12 +41,12 @@
   border-radius: 4rem;
   padding: 10px;
   background: rgba(170, 170 ,170 ,0.1);
-  filter: grayscale(100);
   max-width: 80%;
   transition: all 0.4s;
 }
 .perfil-img:hover{
   background: rgba(170, 170 ,170 ,0.3);
+  transform: scale(1.1);
 }
 
 .container-left{
@@ -68,13 +68,14 @@
 
 .p-title{
   text-transform: uppercase;
-  color: #aaaaaa;
   margin-bottom: 15px;
+  color: var(--primary-white);
+}
+.btn-down:hover {
+  transform: scale(1.1);
 }
 
-hr{
-  opacity: 3%;
-}
+
 
 @media only screen and (max-width: 789px){
 

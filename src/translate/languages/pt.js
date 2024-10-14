@@ -17,27 +17,26 @@ const messages = {
                 h1:'Gabriel Gonçalves Cunha',
                 h2:'Desenvolvedor',
                 em:'front end.',
-                p:'Sou um desenvolvedor com foco no front-end ( se aprimorando ao back-end em Javascript React/Node ) codificando aplicações elegantes, objetivas e otimizadas para o SEO.'
+                p:'Criando interfaces eficientes e otimizadas'
             },
 
             presentation:{
                 about:'SOBRE',
-                about_text1:'Desenvolvedor front-end, amante e',
-                about_text2:'de CSS HTML, em constante evolução e aprendizado ao Fullstack.',
-                about_em:'hater',
+                about_text1:'Eclético, flexível, otimista. Estou disposto a fazer dar certo o que esta em minhas mãos dentro do meu melhor.',
                 address:'MORA EM',
                 address_text1:'Navegantes',
                 address_text2:'Santa Catarina',
                 address_text3:'Brasil',
                 experience:'EXPERIÊNCIA',
                 experience_text:'1 - 3 anos | Junior',
+                frase:'a',
                 download:'DOWNLOAD',
-                download_button:'Curriculum.pdf'
+                download_button:'Profile.pdf'
             },
 
             skills:{
                 focus:'Foco e skills',
-                p:'Me considero muito aplicado na resolução de problemas. Acho que compartilhar soluções gera inspiração, quero ter a oportunidade e, no momento favorável, ensinar esses passos para iniciantes, conforme eu fui orientado e startado no mundo Dev.'
+                p:'Me considero aplicado na resolução de problemas. Acho que compartilhar soluções gera inspiração, quero ter a oportunidade e, no momento favorável, ensinar esses passos para iniciantes, conforme eu fui orientado e startado no mundo Dev.'
             },
 
             projects:{

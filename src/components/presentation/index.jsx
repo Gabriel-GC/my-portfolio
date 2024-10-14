@@ -15,7 +15,7 @@ export const Presentation = () => {
         <div className="container-right">
           <div className="content-right">
             <p className='p-title'>{i18n.t('presentation.about')}</p>
-            <p>{i18n.t('presentation.about_text1')} <em>{i18n.t('presentation.about_em')}</em> {i18n.t('presentation.about_text2')}</p>
+            <p>{i18n.t('presentation.about_text1')}</p>
           </div>
           <div className="content-right">
             <p className='p-title'>{i18n.t('presentation.address')}</p>

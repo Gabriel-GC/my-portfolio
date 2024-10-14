@@ -4,7 +4,6 @@ import './styles.css';
 
 import Linkedin from "../../assets/icons/linkedin.png";
 import Whats from "../../assets/icons/whatsapp.png";
-import Facebook from "../../assets/icons/facebook.png";
 import Github from "../../assets/icons/github.png";
 import Source from "../../assets/icons/source.png";
 
@@ -31,10 +30,6 @@ export const Contact = () => {
 
                     <a href="https://www.linkedin.com/in/gabriel-gon%C3%A7alves-cunha-37347b305/" target="_blank" rel="noreferrer">
                         <img src={Linkedin} alt="Linkedin" />
-                    </a>
-
-                    <a href="https://www.facebook.com/gabriel.goncalves.9797" target="_blank" rel="noreferrer">
-                        <img src={Facebook} alt="Facebook" />
                     </a>
 
                     <a href="https://github.com/Gabriel-GC" target="_blank" rel="noreferrer">

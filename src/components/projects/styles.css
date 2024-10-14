@@ -1,213 +1,214 @@
 .container-projects {
-    display: flex;
-    gap: 20px;
-    padding: 5rem 20px;
-    flex-direction: column;
+  display: flex;
+  gap: 20px;
+  padding: 5rem 20px;
+  flex-direction: column;
 }
 
-.txt-projects{
-    width: 50%;
-    display: flex;
-    flex-direction:column;
+.txt-projects {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .grid-projects {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-    grid-template-rows: auto;
-    gap: 10px;;
-    place-items: center;
-    place-content: center;
-    margin-top: 3rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-template-rows: auto;
+  gap: 10px;
+  place-items: center;
+  place-content: center;
+  margin-top: 3rem;
 }
 
 .project {
-    position: relative;
-    width: 100%;
-    height: 18rem;
-    background: #000;
-    border-radius: 2rem;
-    overflow: hidden;
-    border: 1px solid rgba(70, 70, 70, 0.3);
+  position: relative;
+  width: 100%;
+  height: 18rem;
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(70, 70, 70, 0.3);
 }
 
 .project img {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 4;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.more{
-    animation: load infinite 2s ease-in-out;
-    cursor: progress;
+.more {
+  animation: load infinite 2s ease-in-out;
+  cursor: progress;
 }
 
 @keyframes load {
-    0%, 100% {
-        opacity: 60%;
-    }
-    50% {
-        opacity: 20%;
-    }
+  0%,
+  100% {
+    opacity: 60%;
+  }
+  50% {
+    opacity: 20%;
+  }
 }
 
 .text {
-    opacity: 0;
-    position: relative;
-    display: flex;
-    align-items: initial;
-    flex-direction: column;
-    text-align: left;
-    z-index: 5;
-    width: 100%;
-    height: 100%;
-    padding: 2rem;
-    justify-content: flex-end
+  opacity: 0;
+  position: relative;
+  display: flex;
+  align-items: initial;
+  flex-direction: column;
+  text-align: left;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  justify-content: flex-end;
 }
 
-.drop{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+.drop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
 }
 
-.drop:hover .text{
-    content: "";
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(70, 70, 70, 0.2), rgb(70, 70, 70));
-    transition: 0.5s;
-    opacity: 0.9;
+.drop:hover .text {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#d6d6d633, #1b3169);
+  transition: 0.5s;
+  opacity: 0.9;
 }
 
-.modal-overlay{
-    background: rgba(70, 70, 70, 0.8);
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+.modal-overlay {
+  background: rgba(70, 70, 70, 0.8);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.modal-content{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    gap: 15px;
-    max-width: 600px;
-    max-height: 98%;
-    background-color: rgba(15, 15, 15,0.95);
-    border: 1px solid rgba(70, 70, 70, 0.2);
-    padding: 10px;
-    border-radius: 2rem;
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 15px;
+  max-width: 600px;
+  max-height: 98%;
+  background-color: rgba(15, 15, 15, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .modal-content a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .modal-content h4 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .modal-content > .skill-camp {
-    gap: 4px;
+  gap: 10px;
 }
 
 .version {
-    opacity: 15%;
-    text-align: center;
-    font-size: 10px;
+  opacity: 15%;
+  text-align: center;
+  font-size: 10px;
 }
 
-.content-link{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 5px;
-    margin-top: 5px;
+.content-link {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
-.share{
-    width: 20px;
+.share {
+  width: 20px;
 }
 
 .ReactModal__Overlay {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.8) !important;
-    z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  z-index: 100;
 }
 
 .swiper {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 
 .swiper-slide {
-    background: rgba(70, 70, 70, 0.9);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    border-radius: 20px;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  background: rgba(70, 70, 70, 0.9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  border-radius: 10px;
+}
 
-  .swiper {
-    margin-left: auto;
-    margin-right: auto;
-  }
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-  .swiper-button-next, .swiper-button-prev {
-    color: rgb(199, 199, 199) !important;
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(199, 199, 199) !important;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: rgba(70, 70, 70, 0.8) !important;
+  background-color: rgba(70, 70, 70, 0.8) !important;
 }
 
-@media only screen and (max-width: 789px){
-    .modal-content > .skill-camp {
-        justify-content: initial;
-    }
-    .container-projects{
-        text-align: center;
-    }
-    .txt-projects{
-        width: 100%;
-    }
+@media only screen and (max-width: 789px) {
+  .modal-content > .skill-camp {
+    justify-content: initial;
+  }
+  .container-projects {
+    text-align: center;
+  }
+  .txt-projects {
+    width: 100%;
+  }
 }

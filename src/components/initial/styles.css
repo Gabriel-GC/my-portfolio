@@ -20,7 +20,6 @@ img.texture{
     margin-top: 1rem;
     font-family: 'Rubik';
     font-size: 18px;
-    color: #aaaaaa;
     font-weight: 200;
     margin-bottom: 2rem;
 }
@@ -36,7 +35,7 @@ img.texture{
     width: 5px;
     height: 5px;
     transform: rotate(45deg);
-    border-right: 1px solid rgba(170, 170, 170,0.6);
+    border-right: 1px solid rgba(255, 255, 255, 0.6);
     border-bottom: 1px solid rgba(170, 170, 170,0.8);
     margin: 0 0 3px 4px;
     width: 16px;
@@ -84,7 +83,7 @@ img.texture{
   width: 24px;
   border-radius: 14px;
   transform: none;
-  border: 1px solid rgba(170, 170, 170,0.4);
+  border: 1px solid rgba(255, 255, 255, 0.4);
   top: 170px;
 }
 

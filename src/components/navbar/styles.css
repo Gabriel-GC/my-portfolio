@@ -3,12 +3,13 @@
     width: 100%;
     position: fixed;
     padding: 0 5%;
-    height: 60px;
+    height: 56px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(15, 15, 15, 0.9);
-    border-bottom: 1px solid rgba(170, 170, 170, 0.1);
+    background: rgba(170, 170, 170, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
 }
 
 .nav-contact a {
@@ -16,22 +17,21 @@
 }
 
 .nav-contact :hover{
-    border-radius: 10px;
-    background: rgba(170, 170, 170, 0.1);
+    color: #cccccc;
 }
 
   .navbar > .nav-items > a {
-    color: #ffffff;
+    color: #fff;
+    padding: 8px;
     font-size: 16px;
     text-decoration: none;
     margin: 15px;
     position: relative;
-    transition: 0.2s;
     margin-bottom: 2rem;
-
   }
+
   .navbar > .nav-items > a:hover {
-      color: #aaaaaa;
+    color: #ccc;
     }
     
   .navbar > .nav-toggle {
