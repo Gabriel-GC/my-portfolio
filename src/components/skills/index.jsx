@@ -3,15 +3,15 @@ import { i18n } from "../../translate/i18n";
 import "./styles.css";
 
 import Blur from "../../assets/icons/blur.png";
-import HTML from "../../assets/icons/skils/html-5.png";
-import CSS from "../../assets/icons/skils/css-3.png";
+import HTML from "../../assets/icons/skils/html.png";
+import CSS from "../../assets/icons/skils/css.png";
 import React from "../../assets/icons/skils/react.png";
-import VS from "../../assets/icons/skils/vscode.png";
+import VS from "../../assets/icons/skils/vs.png";
 import JS from "../../assets/icons/skils/js.png";
 import Node from "../../assets/icons/skils/node-js.png";
-import Ps from "../../assets/icons/skils/ps.png";
+import Mui from "../../assets/icons/skils/mui.png";
 import Figma from "../../assets/icons/skils/figma.png";
-import Git from "../../assets/icons/skils/git.png";
+import Git from "../../assets/icons/skils/github.png";
 
 export const Skills = () => {
   return (
@@ -36,7 +36,7 @@ export const Skills = () => {
               <span>React</span>
             </div>
             <div className="skill-box">
-              <span>Material Design</span>
+              <span>Material Ui</span>
             </div>
             <div className="skill-box">
               <span>SCSS</span>
@@ -115,22 +115,6 @@ export const Skills = () => {
               <span>Trello</span>
             </div>
           </div>
-
-          {/* <p className="sub-p">Online platform</p>
-          <div className="skill-camp">
-            <div className="skill-box">
-              <span>Wix</span>
-            </div>
-            <div className="skill-box">
-              <span>NuvemShop</span>
-            </div>
-            <div className="skill-box">
-              <span>Loja Integrada</span>
-            </div>
-            <div className="skill-box">
-              <span>Magazord</span>
-            </div>
-          </div> */}
         </div>
         <div className="asset">
           <img className="blur" src={Blur} alt="Imagem gradiente branco" />
@@ -154,7 +138,7 @@ export const Skills = () => {
               <img src={Node} alt="Logo Node js" />
             </div>
             <div className="tech">
-              <img src={Ps} alt="Logo Photoshop" />
+              <img src={Mui} alt="Logo Material ui" />
             </div>
             <div className="tech">
               <img src={Figma} alt="Logo Figma" />
