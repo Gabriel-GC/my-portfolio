@@ -55,7 +55,8 @@ img{
   }
 
 @media only screen and (max-width: 1080px){
-    .set-container{
-        display: none;
-    }
+.set-container{
+  display: none;
+}
+  
 }

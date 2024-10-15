@@ -3,13 +3,15 @@
   --secundary-white: #f2f2f2;
   --primary-gray: #ccc;
   --secundary-gray: #999999;
-  --main-primary: #111f42;
-  --main-secundary: #1b3169;
+  --main-primary: #001b4a;
+  --main-secundary: #04408a;
+  --main-tertiary : #073f85;
   --background-gradient: linear-gradient(
     0deg,
-    rgb(27, 49, 105) 0%,
-    rgba(18, 34, 75, 1) 70%,
-    rgba(11, 22, 51, 1) 99%
+    #001b4a 0%,
+    #001b4a 50%,
+    #04408a 90%
+
   );
 }
 

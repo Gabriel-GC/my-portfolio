@@ -9,9 +9,6 @@
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(3px);
-
-
-
 }
 
 .nav-contact a {
@@ -43,7 +40,7 @@
 @media (max-width: 1080px) {
   .navbar {
     backdrop-filter: none;
-    background: var(--main-primary);
+    background: var(--main-tertiary);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
   .navbar > .nav-items {

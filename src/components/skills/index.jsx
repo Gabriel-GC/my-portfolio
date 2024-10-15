@@ -25,7 +25,7 @@ export const Skills = () => {
 
           <p className="sub-p">Frameworks / Library / Languages</p>
           <div className="skill-camp">
-            <div className="skill-box-pro">
+            <div className="skill-box">
               <span>React.js</span>
             </div>
             <div className="skill-box">
@@ -42,10 +42,10 @@ export const Skills = () => {
               <span>SCSS</span>
             </div>
             <p className="dot">.</p>
-            <div className="skill-box-pro">
+            <div className="skill-box">
               <span>HTML</span>
             </div>
-            <div className="skill-box-pro">
+            <div className="skill-box">
               <span>CSS</span>
             </div>
             <div className="skill-box">
@@ -58,7 +58,7 @@ export const Skills = () => {
 
           <p className="sub-p">Tools / Design web </p>
           <div className="skill-camp">
-            <div className="skill-box-pro">
+            <div className="skill-box">
               <span>Visual Studio</span>
             </div>
             <div className="skill-box">
@@ -68,7 +68,7 @@ export const Skills = () => {
             <div className="skill-box">
               <span>UX/UI</span>
             </div>
-            <div className="skill-box-pro">
+            <div className="skill-box">
               <span>Photoshop</span>
             </div>
             <div className="skill-box">
@@ -78,7 +78,7 @@ export const Skills = () => {
 
           <p className="sub-p">Google / Hosting</p>
           <div className="skill-camp">
-            <div className="skill-box-pro">
+            <div className="skill-box">
               <span>SEO</span>
             </div>
             <div className="skill-box">
@@ -91,7 +91,7 @@ export const Skills = () => {
             <div className="skill-box">
               <span>Digital Ocean</span>
             </div>
-            <div className="skill-box-pro">
+            <div className="skill-box">
               <span>Netlifly</span>
             </div>
           </div>
@@ -101,7 +101,7 @@ export const Skills = () => {
             <div className="skill-box">
               <span>Git</span>
             </div>
-            <div className="skill-box-pro">
+            <div className="skill-box">
               <span>Gitub</span>
             </div>
             <p className="dot">.</p>
