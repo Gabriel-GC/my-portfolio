@@ -3,17 +3,17 @@
   "name": "Portfolio - Gabriel Gonçalves Cunha",
   "icons": [
     {
-      "src": "favicon-64x64.png",
+      "src": "./favicon-64X64.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "favicon-128x128.png",
+      "src": "./favicon-126X128.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "favicon-512x512.png",
+      "src": "./favicon-512X512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

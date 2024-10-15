@@ -55,21 +55,7 @@ img {
 
 @media only screen and (max-width: 1080px) {
   .set-container {
-    right: -5rem;
-    width: 18%;
-    height: 180px;
-    backdrop-filter: blur(3px);
-    width: 100px;
+    display: none;
   }
 
-  .set-container:hover {
-    right: 0;
-  }
-  .flagEN{width: 42px;}
-  .flagES{width: 42px;}
-  .flagBR{width: 42px;}
-
-  .set-content {
-    gap: 15px;
-  }
 }
