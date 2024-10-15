@@ -1,9 +1,16 @@
 #cursor-bg {
-	/* display: none; */
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	background: rgba(255, 255, 255, 0.3);
-	border-radius: 50%;
-	filter: blur(100px);
+  /* display: none; */
+  position: absolute;
+  display:inline-block !important;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  filter: blur(100px);
+}
+
+@media (max-width: 900px) {
+  #cursor-bg {
+    display: none !important;
+  }
 }
