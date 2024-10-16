@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { i18n } from "../../translate/i18n";
+import Logo from "../../assets/photos/favicon-64X64.png"
 
 
 
@@ -10,6 +11,7 @@ export const Navbar = () => {
     return (
         <div className="navbar">
             <span className="nav-contact">
+                <img src={Logo} alt="" />
                 <a href="https://api.whatsapp.com/send?phone=5547999963122&text=Ol%C3%A1%2C%20vamos%20marcar%20uma%20call%20%3F" target="_blank" rel="noreferrer">{i18n.t("navbar.privateContact")}</a>
             </span>
             <div className={`nav-items ${isOpen && "open"}`}>

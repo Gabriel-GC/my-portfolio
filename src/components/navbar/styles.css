@@ -10,6 +10,17 @@
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(3px);
 }
+.nav-contact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.nav-contact img {
+  width: 44px;
+  height: 44px;
+  display: flex;
+}
 
 .nav-contact a {
   padding: 8px;
