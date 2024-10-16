@@ -1,80 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <meta property="og:title" content="Gabriel - Desenvolvedor Front-end">
-    <meta property="og:description" content="Desenvolvedor front-end. codificando aplicações elegantes, objetivas e otimizadas.">
-    <link rel="icon" href="favicon-64X64.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Desenvolvedor front-end. codificando aplicações elegantes, objetivas e otimizadas."
-    />
-    <meta
-      property="og:image"
-      content="https://portfoliogabrielgc.netlify.app/thumb-hub.jpg"
-    />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="627" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" href="favicon-128X128.png" />
-    <link rel="stylesheet" href="syles.css">
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-     <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-          <!-- Hotjar Tracking Code for https://portfoliogabrielgc.netlify.app/ -->
-    <!-- <script>
-      (function(h,o,t,j,a,r){
-          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-          h._hjSettings={hjid:3055005,hjsv:6};
-          a=o.getElementsByTagName('head')[0];
-          r=o.createElement('script');r.async=1;
-          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-          a.appendChild(r);
-      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script> -->
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-233596551-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
-     gtag('config', 'UA-233596551-1');
-    </script> -->
-    <title>Gabriel - Desenvolvedor Front-end</title>
-  </head>
-  <body>
-    <div id='cursor-bg'></div>
-    <script>
-      const bg = document.getElementById('cursor-bg');
-  
-      document.addEventListener('pointermove', (e) => {
-        bg.style.display = 'block';
-  
-        bg.animate ({
-          top: e.pageY + 'px',
-          left: e.pageX + 'px'
-        }, {
-          duration: 500,
-          fill: 'forwards'
-        })
+<head>
+  <meta charset="utf-8" />
+  <meta property="og:title" content="Gabriel - Desenvolvedor Front-end">
+  <meta property="og:description"
+    content="Desenvolvedor front-end. codificando aplicações elegantes, objetivas e otimizadas.">
+  <link rel="icon" href="favicon-64X64.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description"
+    content="Desenvolvedor front-end. codificando aplicações elegantes, objetivas e otimizadas." />
+  <meta property="og:image" content="https://portfoliogabrielgc.netlify.app/thumb-hub.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="627" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="apple-touch-icon" href="favicon-128X128.png" />
+  <link rel="stylesheet" href="syles.css">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PJNGFRVC');</script>
+  <!-- End Google Tag Manager -->
+  <title>Gabriel - Desenvolvedor Front-end</title>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJNGFRVC" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div id='cursor-bg'></div>
+  <script>
+    const bg = document.getElementById('cursor-bg');
+
+    document.addEventListener('pointermove', (e) => {
+      bg.style.display = 'block';
+
+      bg.animate({
+        top: e.pageY + 'px',
+        left: e.pageX + 'px'
+      }, {
+        duration: 500,
+        fill: 'forwards'
       })
-    </script>
-    <div id="root"></div>
-  </body>
+    })
+  </script>
+  <div id="root"></div>
+</body>
+
 </html>
