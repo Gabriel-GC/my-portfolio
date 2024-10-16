@@ -13,6 +13,7 @@
 
 .nav-contact a {
   padding: 8px;
+  text-shadow: rgba(0, 0, 0, 0.5) 3px 2px 3px;
 }
 
 .nav-contact :hover {
@@ -27,6 +28,8 @@
   margin: 15px;
   position: relative;
   margin-bottom: 2rem;
+  text-shadow: rgba(0, 0, 0, 0.5) 3px 2px 3px;
+
 }
 
 .navbar > .nav-items > a:hover {
@@ -61,7 +64,7 @@
     backdrop-filter: blur(10px);
   }
   .navbar > .nav-items a {
-    text-shadow: rgba(0, 0, 0, 0.9) 3px 2px 3px;
+    text-shadow: rgba(0, 0, 0, 0.5) 3px 2px 3px;
   }
 
   .navbar > .nav-items > a::before {
