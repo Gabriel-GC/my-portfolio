@@ -51,8 +51,8 @@ img.blur {
   top: 50%;
   left: 55%;
   transform: translate(-50%, -50%);
-  opacity: 0.2;
-  filter: blur(2rem);
+  opacity: 0.8;
+  filter: blur(2px);
 }
 
 .techs {

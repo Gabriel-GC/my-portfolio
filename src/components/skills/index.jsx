@@ -2,7 +2,8 @@ import { i18n } from "../../translate/i18n";
 
 import "./styles.css";
 
-import Blur from "../../assets/icons/blur.png";
+// import Blur from "../../assets/icons/blur.png";
+import Blur from "../../assets/photos/logo-g.png";
 import HTML from "../../assets/icons/skils/html.png";
 import CSS from "../../assets/icons/skils/css.png";
 import React from "../../assets/icons/skils/react.png";
