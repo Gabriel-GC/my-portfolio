@@ -3,7 +3,7 @@ import { i18n } from "../../translate/i18n";
 import './styles.css';
 
 import Perfil from "../../assets/photos/profile.jpg";
-import Profile from "../../assets/profile/gabriel-goncalves-cunha.pdf";
+import Profile from "../../assets/profile/profile-gabriel-2024-share.pdf";
 
 
 
