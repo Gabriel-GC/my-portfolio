@@ -447,9 +447,6 @@ export const Projects = () => {
                                             <span>SEO</span>
                                         </div>
                                         <div className="skill-box">
-                                            <span>Figma</span>
-                                        </div>
-                                        <div className="skill-box">
                                             <span>Git</span>
                                         </div>
                                         <div className="skill-box">
@@ -514,9 +511,6 @@ export const Projects = () => {
                                         </div>
                                         <div className="skill-box">
                                             <span>SEO</span>
-                                        </div>
-                                        <div className="skill-box">
-                                            <span>Figma</span>
                                         </div>
                                         <div className="skill-box">
                                             <span>Git</span>

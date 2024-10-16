@@ -109,9 +109,9 @@
 .modal-content {
   display: flex;
   flex-direction: column;
-  width: 90%;
-  gap: 15px;
-  max-width: 600px;
+  width: 126%;
+  gap: 8px;
+  max-width: 650px;
   max-height: 98%;
   background: var(--background-gradient);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -157,6 +157,7 @@
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.8) !important;
   z-index: 100;
+  zoom: 0.9; 
 }
 
 .swiper {
@@ -180,7 +181,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
-  align-items: center;
+  align-items: initial;
   border-radius: 10px;
 }
 
@@ -206,6 +207,18 @@
 }
 
 @media only screen and (max-width: 789px) {
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 15px;
+    max-width: 600px;
+    max-height: 98%;
+    background: var(--background-gradient);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+  }
   .modal-content > .skill-camp {
     justify-content: initial;
   }

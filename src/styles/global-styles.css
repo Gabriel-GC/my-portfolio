@@ -19,14 +19,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scrollbar-width: none;
 }
 
 body {
   margin: 0;
   background: var(--background-gradient) ;
   font-family: "Rubik";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {

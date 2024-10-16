@@ -9,7 +9,7 @@
   filter: blur(100px);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   #cursor-bg {
     display: none !important;
   }
