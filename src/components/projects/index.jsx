@@ -47,6 +47,11 @@ import Jeep_logo from "../../assets/photos/projects/jeep/jeep-capa.jpg"
 import Jeep_desk from "../../assets/photos/projects/jeep/jeep-desk.webp"
 import Jeep_mobile from "../../assets/photos/projects/jeep/jeep-mobile.jpg"
 
+import Toy from "../../assets/photos/projects/toystorymemory/capa.jpg"
+import Toy_logo from "../../assets/photos/projects/toystorymemory/portfolio-project-one.jpg"
+import Toy_desk from "../../assets/photos/projects/toystorymemory/desk-mockp-portfolio.jpg"
+import Toy_mobile from "../../assets/photos/projects/toystorymemory/mobile-mockp-portfolio.jpg"
+
 Modal.setAppElement("#root");
 
 export const Projects = () => {
@@ -57,6 +62,8 @@ export const Projects = () => {
     const [modalForIsOpen, setForIsOpen] = useState(false);
     const [modalFiveIsOpen, setFiveIsOpen] = useState(false);
     const [modalSixIsOpen, setSixIsOpen] = useState(false);
+    const [modalSevenIsOpen, setSevenIsOpen] = useState(false);
+    
 
 
     function openModalOne() {
@@ -105,6 +112,14 @@ export const Projects = () => {
 
     function closeModalSix() {
         setSixIsOpen(false);
+    }
+
+    function openModalSeven() {
+        setSevenIsOpen(true);
+    }
+
+    function closeModalSeven() {
+        setSevenIsOpen(false);
     }
 
     return (
@@ -526,7 +541,70 @@ export const Projects = () => {
                                         <a href="https://form-totest.netlify.app/" target='_blank' rel='noreferrer' >form-totest.netlify.app</a>
                                         <img className="share" src={Share} alt="" />
                                     </div>
-                                    <button onClick={closeModalSix}><p>{i18n.t('projects.modal_button')}</p></button>
+                                    <button onClick={closeModalSeven}><p>{i18n.t('projects.modal_button')}</p></button>
+                                    <span className="version">{i18n.t('projects.modal_warning')}</span>
+                                </Modal>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="project">
+                        <img src={Toy} alt="Toy Story Memory" />
+                        <div className="drop">
+                            <div className="text">
+                                <button onClick={openModalSeven} className="btn-down"><p>{i18n.t('projects.seemore')}</p></button>
+
+                                <Modal
+                                    isOpen={modalSevenIsOpen}
+                                    onRequestClose={closeModalSeven}
+                                    contentLabel="Modal Example"
+                                    overLayClassName="modal-overlay"
+                                    className="modal-content"
+                                >
+                                    <Swiper
+                                        pagination={{
+                                            clickable: true,
+                                        }}
+                                        navigation={true}
+                                        loop={true}
+                                        slidesPerView={1}
+                                        autoplay={{ delay: 5000 }}
+                                        modules={[Pagination, Navigation]}
+                                    >
+                                        <SwiperSlide><img src={Toy_logo} alt="mockup site logo" /></SwiperSlide>
+                                        <SwiperSlide><img src={Toy_desk} alt="mockup site desktop" /></SwiperSlide>
+                                        <SwiperSlide><img src={Toy_mobile} alt="mockup site mobile" /></SwiperSlide>
+                                    </Swiper>
+                                    <h4>Toy Story Memory</h4>
+                                    <hr />
+                                    <div className="skill-camp">
+                                        <div className="skill-box">
+                                            <span>HTML 5</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>CSS 3</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Photoshop</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Visual Studio Code</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>JavaScript</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Github</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>UI</span>
+                                        </div>
+                                    </div>
+                                    <div className="content-link">
+                                        <a href="https://toystorymemory.netlify.app/" target='_blank' rel='noreferrer' >toystorymemory.netlify.app</a>
+                                        <img className="share" src={Share} alt="" />
+                                    </div>
+                                    <button onClick={openModalSeven}><p>{i18n.t('projects.modal_button')}</p></button>
                                     <span className="version">{i18n.t('projects.modal_warning')}</span>
                                 </Modal>
                             </div>
