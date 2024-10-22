@@ -541,7 +541,7 @@ export const Projects = () => {
                                         <a href="https://form-totest.netlify.app/" target='_blank' rel='noreferrer' >form-totest.netlify.app</a>
                                         <img className="share" src={Share} alt="" />
                                     </div>
-                                    <button onClick={closeModalSeven}><p>{i18n.t('projects.modal_button')}</p></button>
+                                    <button onClick={closeModalSix}><p>{i18n.t('projects.modal_button')}</p></button>
                                     <span className="version">{i18n.t('projects.modal_warning')}</span>
                                 </Modal>
                             </div>
@@ -604,7 +604,7 @@ export const Projects = () => {
                                         <a href="https://toystorymemory.netlify.app/" target='_blank' rel='noreferrer' >toystorymemory.netlify.app</a>
                                         <img className="share" src={Share} alt="" />
                                     </div>
-                                    <button onClick={openModalSeven}><p>{i18n.t('projects.modal_button')}</p></button>
+                                    <button onClick={closeModalSeven}><p>{i18n.t('projects.modal_button')}</p></button>
                                     <span className="version">{i18n.t('projects.modal_warning')}</span>
                                 </Modal>
                             </div>
