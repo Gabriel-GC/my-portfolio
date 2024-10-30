@@ -52,6 +52,11 @@ import Toy_logo from "../../assets/photos/projects/toystorymemory/portfolio-proj
 import Toy_desk from "../../assets/photos/projects/toystorymemory/desk-mockp-portfolio.jpg"
 import Toy_mobile from "../../assets/photos/projects/toystorymemory/mobile-mockp-portfolio.jpg"
 
+import Tatuape from "../../assets/photos/projects/tatuape/capa.png"
+import Tatuape_logo from "../../assets/photos/projects/tatuape/portfolio-project-one.png"
+import Tatuape_desk from "../../assets/photos/projects/tatuape/desk-mockp-portfolio.png"
+import Tatuape_mobile from "../../assets/photos/projects/tatuape/mobile-mockp-portfolio.png"
+
 Modal.setAppElement("#root");
 
 export const Projects = () => {
@@ -63,6 +68,7 @@ export const Projects = () => {
     const [modalFiveIsOpen, setFiveIsOpen] = useState(false);
     const [modalSixIsOpen, setSixIsOpen] = useState(false);
     const [modalSevenIsOpen, setSevenIsOpen] = useState(false);
+    const [modalEightIsOpen, setEightIsOpen] = useState(false);
     
 
 
@@ -120,6 +126,14 @@ export const Projects = () => {
 
     function closeModalSeven() {
         setSevenIsOpen(false);
+    }
+
+    function openModalEight() {
+        setEightIsOpen(true);
+    }
+
+    function closeModalEight() {
+        setEightIsOpen(false);
     }
 
     return (
@@ -605,6 +619,72 @@ export const Projects = () => {
                                         <img className="share" src={Share} alt="" />
                                     </div>
                                     <button onClick={closeModalSeven}><p>{i18n.t('projects.modal_button')}</p></button>
+                                    <span className="version">{i18n.t('projects.modal_warning')}</span>
+                                </Modal>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="project">
+                        <img src={Tatuape} alt="Toy Story Memory" />
+                        <div className="drop">
+                            <div className="text">
+                                <button onClick={openModalEight} className="btn-down"><p>{i18n.t('projects.seemore')}</p></button>
+
+                                <Modal
+                                    isOpen={modalEightIsOpen}
+                                    onRequestClose={closeModalEight}
+                                    contentLabel="Modal Example"
+                                    overLayClassName="modal-overlay"
+                                    className="modal-content"
+                                >
+                                    <Swiper
+                                        pagination={{
+                                            clickable: true,
+                                        }}
+                                        navigation={true}
+                                        loop={true}
+                                        slidesPerView={1}
+                                        autoplay={{ delay: 5000 }}
+                                        modules={[Pagination, Navigation]}
+                                    >
+                                        <SwiperSlide><img src={Tatuape_logo} alt="mockup site logo" /></SwiperSlide>
+                                        <SwiperSlide><img src={Tatuape_desk} alt="mockup site desktop" /></SwiperSlide>
+                                        <SwiperSlide><img src={Tatuape_mobile} alt="mockup site mobile" /></SwiperSlide>
+                                    </Swiper>
+                                    <h4>PROJETO TESTE - Tatuapé</h4>
+                                    <hr />
+                                    <div className="skill-camp">
+                                        <div className="skill-box">
+                                            <span>HTML</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>CSS</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Photoshop</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Visual Studio Code</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>JavaScript</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>Github</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>UI</span>
+                                        </div>
+                                        <div className="skill-box">
+                                            <span>SEO</span>
+                                        </div>
+                                    </div>
+                                    <div className="content-link">
+                                        <a href="https://tatuapeconceito-front.netlify.app/" target='_blank' rel='noreferrer' >tatuapeconceito-front.netlify.app</a>
+                                        <img className="share" src={Share} alt="" />
+                                    </div>
+                                    <button onClick={closeModalEight}><p>{i18n.t('projects.modal_button')}</p></button>
                                     <span className="version">{i18n.t('projects.modal_warning')}</span>
                                 </Modal>
                             </div>
