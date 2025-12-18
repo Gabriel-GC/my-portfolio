@@ -36,7 +36,7 @@ export const Contact = () => {
                         <img src={Github} alt="Github" />
                     </a>
 
-                    <a href="https://github.com/Gabriel-GC/my-portfolio" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/Gabriel-GC" target="_blank" rel="noreferrer">
                         <img src={Source} alt="Source" />
                     </a>
                 </div>
