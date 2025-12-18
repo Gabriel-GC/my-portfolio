@@ -3,7 +3,7 @@ import { i18n } from "../../translate/i18n";
 import './styles.css';
 
 import Perfil from "../../assets/photos/profile.jpg";
-import Profile from "../../assets/profile/profile-gabriel-2024-share.pdf";
+import Profile from "../../assets/profile/profile-gabriel-2025-share.pdf";
 
 
 
@@ -19,7 +19,6 @@ export const Presentation = () => {
           </div>
           <div className="content-right">
             <p className='p-title'>{i18n.t('presentation.address')}</p>
-            <p>{i18n.t('presentation.address_text1')}</p>
             <p>{i18n.t('presentation.address_text2')}</p>
             <p>{i18n.t('presentation.address_text3')}</p>
           </div>

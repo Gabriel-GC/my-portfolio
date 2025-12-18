@@ -32,6 +32,7 @@
   border: 1px solid rgba(70, 70, 70, 0.3);
   transition: 0.1s;
 }
+
 .project:hover {
   transform: scale(1.02);
 }
@@ -45,16 +46,19 @@
   height: 100%;
   object-fit: cover;
 }
+
 .more img {
   animation: load infinite 2s ease-in-out;
   cursor: wait;
 }
 
 @keyframes load {
+
   0%,
   100% {
     opacity: 60%;
   }
+
   50% {
     opacity: 20%;
   }
@@ -127,21 +131,40 @@
   font-size: 24px;
 }
 
-.modal-content > .skill-camp {
+.modal-content>.skill-camp {
   gap: 10px;
 }
 
+.more {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  justify-content: center;
+  margin-top: 18px;
+}
+
 .version {
-  opacity: 15%;
+  opacity: 55%;
   text-align: center;
   font-size: 10px;
 }
 
+.content__stores {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 18px 0;
+  justify-content: space-between;
+  gap: 0 24px;
+}
+
 .content-link {
   display: flex;
+  border-bottom: 1px solid #ffffff21;
+  width: calc(50% - 24px);
   flex-direction: row;
   gap: 10px;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 5px;
   margin-top: 5px;
@@ -157,7 +180,7 @@
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.8) !important;
   z-index: 100;
-  zoom: 0.9; 
+  zoom: 0.9;
 }
 
 .swiper {
@@ -219,12 +242,15 @@
     padding: 20px;
     border-radius: 10px;
   }
-  .modal-content > .skill-camp {
+
+  .modal-content>.skill-camp {
     justify-content: initial;
   }
+
   .container-projects {
     text-align: center;
   }
+
   .txt-projects {
     width: 100%;
   }

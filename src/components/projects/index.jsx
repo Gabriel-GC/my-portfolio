@@ -17,42 +17,37 @@ import More from "../../assets/photos/foto-capa-modal-morepost.png";
 
 //modal imports
 
-import Turnflix from "../../assets/photos/projects/turnflix/turnflix-capa.png";
-import Turnflix1 from "../../assets/photos/projects/turnflix/turnflix-project-one.png";
-import Turnflix2 from "../../assets/photos/projects/turnflix/turnflix-project-desktop.png";
-import Turnflix3 from "../../assets/photos/projects/turnflix/turnflix-project-mobile.png";
-
-import Postevent from "../../assets/photos/projects/postevent/postevent-capa.png";
+import Postevent from "../../assets/photos/projects/postevent/post-event.png";
 import Postevent1 from "../../assets/photos/projects/postevent/postevent-project-one.png";
 import Postevent2 from "../../assets/photos/projects/postevent/postevent-project-desktop.png";
 import Postevent3 from "../../assets/photos/projects/postevent/postevent-project-mobile.png";
 
-import Verbena from "../../assets/photos/projects/verbena/verbena-capa.png";
-import Verbena1 from "../../assets/photos/projects/verbena/verbena-project-one.png";
-import Verbena2 from "../../assets/photos/projects/verbena/verbena-project-desktop.png";
-import Verbena3 from "../../assets/photos/projects/verbena/verbena-project-mobile.png";
+import Lojas from "../../assets/photos/projects/lojas/1.png";
+import Lojas1 from "../../assets/photos/projects/lojas/2.png";
+import Lojas2 from "../../assets/photos/projects/lojas/3.png";
+import Lojas3 from "../../assets/photos/projects/lojas/4.png";
 
 import Portfolio from "../../assets/photos/projects/portfolio/portfolio-capa.png";
 import Portfolio1 from "../../assets/photos/projects/portfolio/portfolio-project-one.png";
 import Portfolio2 from "../../assets/photos/projects/portfolio/portfolio-project-desktop.png";
 import Portfolio3 from "../../assets/photos/projects/portfolio/portfolio-project-mobile.png";
 
-import Alpes from "../../assets/photos/projects/alpes/alpes.webp";
+import Alpes from "../../assets/photos/projects/alpes/alpes.png";
 import Alpes_logo from "../../assets/photos/projects/alpes/alpes-logo.webp";
 import Alpes_desk from "../../assets/photos/projects/alpes/alpes-desk.webp";
 import Alpes_mobile from "../../assets/photos/projects/alpes/alpes-mobile.webp";
 
-import Jeep from "../../assets/photos/projects/jeep/jeep.webp"
+import Jeep from "../../assets/photos/projects/jeep/jeep.png"
 import Jeep_logo from "../../assets/photos/projects/jeep/jeep-capa.jpg"
 import Jeep_desk from "../../assets/photos/projects/jeep/jeep-desk.webp"
 import Jeep_mobile from "../../assets/photos/projects/jeep/jeep-mobile.jpg"
 
-import Toy from "../../assets/photos/projects/toystorymemory/capa.jpg"
+import Toy from "../../assets/photos/projects/toystorymemory/minecraft.png"
 import Toy_logo from "../../assets/photos/projects/toystorymemory/portfolio-project-one.jpg"
 import Toy_desk from "../../assets/photos/projects/toystorymemory/desk-mockp-portfolio.jpg"
 import Toy_mobile from "../../assets/photos/projects/toystorymemory/mobile-mockp-portfolio.jpg"
 
-import Tatuape from "../../assets/photos/projects/tatuape/capa.png"
+import Tatuape from "../../assets/photos/projects/tatuape/tatu.png"
 import Tatuape_logo from "../../assets/photos/projects/tatuape/portfolio-project-one.png"
 import Tatuape_desk from "../../assets/photos/projects/tatuape/desk-mockp-portfolio.png"
 import Tatuape_mobile from "../../assets/photos/projects/tatuape/mobile-mockp-portfolio.png"
@@ -64,12 +59,11 @@ export const Projects = () => {
     const [modalOneIsOpen, setOneIsOpen] = useState(false);
     const [modalTwoIsOpen, setTwoIsOpen] = useState(false);
     const [modalTreIsOpen, setTreIsOpen] = useState(false);
-    const [modalForIsOpen, setForIsOpen] = useState(false);
     const [modalFiveIsOpen, setFiveIsOpen] = useState(false);
     const [modalSixIsOpen, setSixIsOpen] = useState(false);
     const [modalSevenIsOpen, setSevenIsOpen] = useState(false);
     const [modalEightIsOpen, setEightIsOpen] = useState(false);
-    
+
 
 
     function openModalOne() {
@@ -94,14 +88,6 @@ export const Projects = () => {
 
     function closeModalTre() {
         setTreIsOpen(false);
-    }
-
-    function openModalFor() {
-        setForIsOpen(true);
-    }
-
-    function closeModalFor() {
-        setForIsOpen(false);
     }
 
     function openModalFive() {
@@ -135,7 +121,18 @@ export const Projects = () => {
     function closeModalEight() {
         setEightIsOpen(false);
     }
-
+    const lojas = [
+        { nome: "Gangster", url: "https://gangster.convertr.app.br/" },
+        { nome: "Kenndra", url: "https://kenndra.convertr.app.br/" },
+        { nome: "Ecosmetal", url: "https://ecosmetal.convertr.app.br/" },
+        { nome: "Rhinosize", url: "https://rhinosize.convertr.app.br/" },
+        { nome: "Efflore", url: "https://efflore.convertr.app.br/" },
+        { nome: "Wiegand", url: "https://wiegandstore.convertr.app.br/" },
+        { nome: "Customic", url: "https://customic.convertr.app.br/" },
+        { nome: "Baby Joy", url: "https://lojababyjoy.convertr.app.br/" },
+        { nome: "Mar quente", url: "https://marquente.convertr.app.br/" },
+        { nome: "Freecorner", url: "https://freecorner.convertr.app.br/" },
+    ];
     return (
         <>
             <span id="projects"></span>
@@ -146,7 +143,7 @@ export const Projects = () => {
                 </div>
                 <div className="grid-projects">
                     <div className="project">
-                        <img src={Verbena} alt="Verbena" />
+                        <img src={Lojas} alt="Lojas" />
                         <div className="drop">
                             <div className="text">
                                 <button onClick={openModalOne} className="btn-down"><p>{i18n.t('projects.seemore')}</p></button>
@@ -167,11 +164,13 @@ export const Projects = () => {
                                         autoplay={{ delay: 5000 }}
                                         modules={[Pagination, Navigation]}
                                     >
-                                        <SwiperSlide><img src={Verbena1} alt="mockup site logo" /></SwiperSlide>
-                                        <SwiperSlide><img src={Verbena2} alt="mockup site desktop" /></SwiperSlide>
-                                        <SwiperSlide><img src={Verbena3} alt="mockup site mobile" /></SwiperSlide>
+                                        <SwiperSlide><img src={Lojas1} alt="mockup site logo" /></SwiperSlide>
+                                        <SwiperSlide><img src={Lojas2} alt="mockup site desktop" /></SwiperSlide>
+                                        <SwiperSlide><img src={Lojas3} alt="mockup site mobile" /></SwiperSlide>
                                     </Swiper>
-                                    <h4>Lading Page - Verbena Club</h4>
+                                    <h4>Desenvolvimento de E-commerces</h4>
+
+                                    <span>{i18n.t('projects.text_dev')}<a href="https://convertr.com.br/" target='_blank' rel="noopener noreferrer">Convertr Commerce</a> </span>
                                     <hr />
                                     <div className="skill-camp">
                                         <div className="skill-box">
@@ -184,7 +183,7 @@ export const Projects = () => {
                                             <span>CSS 3</span>
                                         </div>
                                         <div className="skill-box">
-                                            <span>React</span>
+                                            <span>Vue.js</span>
                                         </div>
                                         <div className="skill-box">
                                             <span>Visual Studio Code</span>
@@ -199,18 +198,25 @@ export const Projects = () => {
                                             <span>Git</span>
                                         </div>
                                         <div className="skill-box">
-                                            <span>Github</span>
+                                            <span>Bitbucket</span>
                                         </div>
                                         <div className="skill-box">
-                                            <span>Digital Ocean</span>
+                                            <span>Plataforma da empresa</span>
                                         </div>
                                     </div>
-                                    <div className="content-link">
-                                        <a href="https://verbenaclub.com/" target='_blank' rel='noreferrer' >verbenaclub.com</a>
-                                        <img className="share" src={Share} alt="Share" />
+                                    <div className="content__stores">
+                                        {lojas.map((loja, index) => (
+                                            <div className="content-link" key={index}>
+                                                <a href={loja.url} target='_blank' rel='noreferrer'>
+                                                    {loja.nome}
+                                                </a>
+                                                <img className="share" src={Share} alt="Share" />
+                                            </div>
+                                        ))}
+                                        <span className="more">+35 stores</span>
                                     </div>
                                     <button onClick={closeModalOne}><p>{i18n.t('projects.modal_button')}</p></button>
-                                    <span className="version">{i18n.t('projects.modal_warning')}</span>
+                                    <span className="version">{i18n.t('projects.modal_warning2')}</span>
                                 </Modal>
                             </div>
                         </div>
@@ -355,75 +361,6 @@ export const Projects = () => {
                                         <img className="share" src={Share} alt="" />
                                     </div>
                                     <button onClick={closeModalTre}><p>{i18n.t('projects.modal_button')}</p></button>
-                                    <span className="version">{i18n.t('projects.modal_warning')}</span>
-                                </Modal>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="project">
-                        <img src={Turnflix} alt="Turnflix" />
-                        <div className="drop">
-                            <div className="text">
-                                <button onClick={openModalFor} className="btn-down"><p>{i18n.t('projects.seemore')}</p></button>
-
-                                <Modal
-                                    isOpen={modalForIsOpen}
-                                    onRequestClose={closeModalFor}
-                                    contentLabel="Modal Example"
-                                    overLayClassName="modal-overlay"
-                                    className="modal-content"
-                                >
-                                    <Swiper
-                                        pagination={{
-                                            clickable: true,
-                                        }}
-                                        navigation={true}
-                                        loop={true}
-                                        slidesPerView={1}
-                                        autoplay={{ delay: 5000 }}
-                                        modules={[Pagination, Navigation]}
-                                    >
-                                        <SwiperSlide><img src={Turnflix1} alt="mockup site logo" /></SwiperSlide>
-                                        <SwiperSlide><img src={Turnflix2} alt="mockup site desktop" /></SwiperSlide>
-                                        <SwiperSlide><img src={Turnflix3} alt="mockup site mobile" /></SwiperSlide>
-                                    </Swiper>
-                                    <h4>Turnflix</h4>
-                                    <hr />
-                                    <div className="skill-camp">
-                                        <div className="skill-box">
-                                            <span>HTML 5</span>
-                                        </div>
-                                        <div className="skill-box">
-                                            <span>CSS 3</span>
-                                        </div>
-                                        <div className="skill-box">
-                                            <span>React</span>
-                                        </div>
-                                        <div className="skill-box">
-                                            <span>Visual Studio Code</span>
-                                        </div>
-                                        <div className="skill-box">
-                                            <span>SEO</span>
-                                        </div>
-                                        <div className="skill-box">
-                                            <span>Figma</span>
-                                        </div>
-                                        <div className="skill-box">
-                                            <span>Git</span>
-                                        </div>
-                                        <div className="skill-box">
-                                            <span>Github</span>
-                                        </div>
-                                        <div className="skill-box">
-                                            <span>UI</span>
-                                        </div>
-                                    </div>
-                                    <div className="content-link">
-                                        <a href="https://turnflix.com/" target='_blank' rel='noreferrer' >turnflix.com</a>
-                                        <img className="share" src={Share} alt="" />
-                                    </div>
-                                    <button onClick={closeModalFor}><p>{i18n.t('projects.modal_button')}</p></button>
                                     <span className="version">{i18n.t('projects.modal_warning')}</span>
                                 </Modal>
                             </div>
@@ -590,6 +527,7 @@ export const Projects = () => {
                                         <SwiperSlide><img src={Toy_mobile} alt="mockup site mobile" /></SwiperSlide>
                                     </Swiper>
                                     <h4>Toy Story Memory</h4>
+                                    <span>versão atualizada para o tema de Mincraft</span>
                                     <hr />
                                     <div className="skill-camp">
                                         <div className="skill-box">
@@ -615,7 +553,7 @@ export const Projects = () => {
                                         </div>
                                     </div>
                                     <div className="content-link">
-                                        <a href="https://toystorymemory.netlify.app/" target='_blank' rel='noreferrer' >toystorymemory.netlify.app</a>
+                                        <a href="https://projectmemorycards.netlify.app/" target='_blank' rel='noreferrer' >projectmemorycards.netlify.app</a>
                                         <img className="share" src={Share} alt="" />
                                     </div>
                                     <button onClick={closeModalSeven}><p>{i18n.t('projects.modal_button')}</p></button>

@@ -1,12 +1,12 @@
+import React from "react";
 import { i18n } from "../../translate/i18n";
-
 import "./styles.css";
 
-// import Blur from "../../assets/icons/blur.png";
+// Imports de Imagens
 import Blur from "../../assets/photos/logo-g.png";
 import HTML from "../../assets/icons/skils/html.png";
 import CSS from "../../assets/icons/skils/css.png";
-import React from "../../assets/icons/skils/react.png";
+import ReactIcon from "../../assets/icons/skils/react.png";
 import VS from "../../assets/icons/skils/vs.png";
 import JS from "../../assets/icons/skils/js.png";
 import Node from "../../assets/icons/skils/node-js.png";
@@ -24,129 +24,62 @@ export const Skills = () => {
           <p>{i18n.t("skills.p")}</p>
           <hr />
 
-          <p className="sub-p">Frameworks / Library / Languages</p>
-          <div className="skill-camp">
-            <div className="skill-box">
-              <span>React.js</span>
-            </div>
-            <div className="skill-box">
-              <span>Node.js</span>
-            </div>
-            <p className="dot">.</p>
-            <div className="skill-box">
-              <span>React</span>
-            </div>
-            <div className="skill-box">
-              <span>Material Ui</span>
-            </div>
-            <div className="skill-box">
-              <span>SCSS</span>
-            </div>
-            <p className="dot">.</p>
-            <div className="skill-box">
-              <span>HTML</span>
-            </div>
-            <div className="skill-box">
-              <span>CSS</span>
-            </div>
-            <div className="skill-box">
-              <span>JavaScript</span>
-            </div>
-            <div className="skill-box">
-              <span>Python</span>
+          {/* --- DESENVOLVIMENTO --- */}
+          <div className="skill-section">
+            <p className="sub-p"><strong>Desenvolvimento:</strong> {i18n.t("skills.development_desc")}</p>
+            <div className="skill-camp">
+              <div className="skill-box"><span>React.js</span></div>
+              <div className="skill-box"><span>Vue.js</span></div>
+              <div className="skill-box"><span>Node.js</span></div>
+              <div className="skill-box"><span>JavaScript</span></div>
             </div>
           </div>
 
-          <p className="sub-p">Tools / Design web </p>
-          <div className="skill-camp">
-            <div className="skill-box">
-              <span>Visual Studio</span>
-            </div>
-            <div className="skill-box">
-              <span>Figma</span>
-            </div>
-            <p className="dot">.</p>
-            <div className="skill-box">
-              <span>UX/UI</span>
-            </div>
-            <div className="skill-box">
-              <span>Photoshop</span>
-            </div>
-            <div className="skill-box">
-              <span>Ilustrator</span>
+          {/* --- DESIGN --- */}
+          <div className="skill-section">
+            <p className="sub-p"><strong>Design & UX:</strong> {i18n.t("skills.design_desc")}</p>
+            <div className="skill-camp">
+              <div className="skill-box"><span>Figma</span></div>
+              <div className="skill-box"><span>UI/UX Design</span></div>
+              <div className="skill-box"><span>Material UI</span></div>
             </div>
           </div>
 
-          <p className="sub-p">Google / Hosting</p>
-          <div className="skill-camp">
-            <div className="skill-box">
-              <span>SEO</span>
-            </div>
-            <div className="skill-box">
-              <span>Analytics</span>
-            </div>
-            <div className="skill-box">
-              <span>Search Console</span>
-            </div>
-            <p className="dot">.</p>
-            <div className="skill-box">
-              <span>Digital Ocean</span>
-            </div>
-            <div className="skill-box">
-              <span>Netlifly</span>
+          {/* --- PERFORMANCE --- */}
+          <div className="skill-section">
+            <p className="sub-p"><strong>Performance & Infra:</strong> {i18n.t("skills.marketing_desc")}</p>
+            <div className="skill-camp">
+              <div className="skill-box"><span>SEO Avançado</span></div>
+              <div className="skill-box"><span>Google Analytics</span></div>
+              <div className="skill-box"><span>Cloud Hosting</span></div>
             </div>
           </div>
 
-          <p className="sub-p">Version control / Hub</p>
-          <div className="skill-camp">
-            <div className="skill-box">
-              <span>Git</span>
-            </div>
-            <div className="skill-box">
-              <span>Gitub</span>
-            </div>
-            <p className="dot">.</p>
-            <div className="skill-box">
-              <span>Slack</span>
-            </div>
-            <div className="skill-box">
-              <span>Monday</span>
-            </div>
-            <div className="skill-box">
-              <span>Trello</span>
+          {/* --- WORKFLOW --- */}
+          <div className="skill-section">
+            <p className="sub-p"><strong>Gestão de Código:</strong> {i18n.t("skills.workflow_desc")}</p>
+            <div className="skill-camp">
+              <div className="skill-box"><span>Git / GitHub</span></div>
+              <div className="skill-box"><span>Bitbucket</span></div>
+              <div className="skill-box"><span>Metodologia Ágil</span></div>
+              <div className="skill-box"><span>Kanban</span></div>
             </div>
           </div>
         </div>
+
+        {/* Área Visual (Lado Direito) */}
         <div className="asset">
-          <img className="blur" src={Blur} alt="Imagem gradiente branco" />
+          <img className="blur" src={Blur} alt="Background" />
           <div className="techs">
-            <div className="tech">
-              <img src={HTML} alt="Logo HTML" />
-            </div>
-            <div className="tech">
-              <img src={CSS} alt="Logo CSS" />
-            </div>
-            <div className="tech">
-              <img src={React} alt="Logo React" />
-            </div>
-            <div className="tech">
-              <img src={VS} alt="Logo Visual Studio Code " />
-            </div>
-            <div className="tech">
-              <img src={JS} alt="Logo Java" />
-            </div>
-            <div className="tech">
-              <img src={Node} alt="Logo Node js" />
-            </div>
-            <div className="tech">
-              <img src={Mui} alt="Logo Material ui" />
-            </div>
-            <div className="tech">
-              <img src={Figma} alt="Logo Figma" />
-            </div>
-            <div className="tech">
-              <img src={Git} alt="Logo Github" />
-            </div>
+            <div className="tech"><img src={HTML} alt="HTML" /></div>
+            <div className="tech"><img src={CSS} alt="CSS" /></div>
+            <div className="tech"><img src={ReactIcon} alt="React" /></div>
+            <div className="tech"><img src={VS} alt="VS Code" /></div>
+            <div className="tech"><img src={JS} alt="JavaScript" /></div>
+            <div className="tech"><img src={Node} alt="Node.js" /></div>
+            <div className="tech"><img src={Mui} alt="MUI" /></div>
+            <div className="tech"><img src={Figma} alt="Figma" /></div>
+            <div className="tech"><img src={Git} alt="Git" /></div>
           </div>
         </div>
       </div>
